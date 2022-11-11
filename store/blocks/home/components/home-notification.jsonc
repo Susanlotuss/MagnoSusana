@@ -1,0 +1,9 @@
+{} /*{
+    "notification.bar#home__section--one":{ 
+            "props":{
+                "title": "section-one",
+                "blockClass":"home_section--one",
+                "content": "Conoce nuestra cobertura de domicilios en Colombia"
+               }
+        }
+}*/

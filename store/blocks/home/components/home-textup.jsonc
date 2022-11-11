@@ -1,0 +1,18 @@
+{
+    "rich-text#home__section--up": {
+        "props": {
+          "text": "Cada presentación cuenta una historia",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "WorkSans"
+        }
+      },
+      "rich-text#home__section--down": {
+        "props": {
+          "text": "Gemas de chocolate real decoradas con oro de 24 k, pintados a mano lo que hace que cada diseño sea único.",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "font": "WorkSans"
+        }
+      }
+}

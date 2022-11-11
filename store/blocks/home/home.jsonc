@@ -1,0 +1,11 @@
+{
+  "store.home": {
+    "blocks": [
+      //"notification.bar#home__section--one",
+      "link#home__product-page",
+      "slider-layout#home__slider--children",
+      "rich-text#home__section--up",
+      "rich-text#home__section--down"
+    ]
+  }
+}
