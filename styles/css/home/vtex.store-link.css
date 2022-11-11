@@ -1,0 +1,21 @@
+.buttonLink {
+    background-color: white;
+    border-color: white;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+}
+
+.label {
+    color: black;
+}
+
+.link {
+    background-color: white;
+}
+
+.link:hover {
+    background-color: white;
+    border-color: white;
+}

@@ -1,0 +1,7 @@
+.slideChildrenContainer--home__slider {
+    min-height: 420px;
+    max-height: 420px;
+}
+.paginationDotsContainer--home__slider {
+    transform: translateY(30px);
+}
