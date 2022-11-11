@@ -1,0 +1,110 @@
+{
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "header-row#header__top",
+            "header-row#header__middle"
+        ]
+    },
+    "header-row#header__middle": {
+        "title": "Header Medio",
+        "children": [
+            "drawer#header__mobile--menu"
+        ],
+        "props": {
+            "blockClass": "header__middle"
+        }
+    },
+    "drawer#header__mobile--menu": {
+        "children": ["menu#header__menu"],
+        "blocks": ["drawer-trigger"]
+    },
+    "drawer-trigger": {
+        "children": [
+            "rich-text#menu"
+        ]
+    },
+    "rich-text#menu": {
+        "props": {
+            "text": "Menu"
+        }
+    },
+    "menu#header__menu": {
+        "children": [
+            "menu-item#department__one",
+            "menu-item#department__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__one": {
+        "props": {
+            "id": "department--one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Chocolates",
+                "text": "Chocolates"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#department__one"
+        ]
+    },
+    "submenu.accordion#department__one": {
+        "children": [
+            "menu#department__one"
+        ]
+    },
+    "menu#department__one": {
+        "children": [
+            "menu-item#category__one",
+            "menu-item#category__two"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__one": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Tortas",
+                "text": "Tortas"
+            }
+        }
+    },
+    "menu-item#category__two": {
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Corporativos",
+                "text": "Corporativos"
+            }
+        }
+    },
+    "menu-item#department__two": {
+        "props": {
+            "id": "department-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Preguntas frecuentes",
+                "text": "Preguntas frecuentes"
+            }
+        }
+    }
+}

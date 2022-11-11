@@ -1,0 +1,49 @@
+{
+
+    "header-row#header__top": {
+        "children": [
+            "logo#header__top--logo",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo",
+        "props": {
+            "url": "assets/img/magnoLogo.avif",
+            "width": 160,
+            "height": 68,
+            "href": "/"
+        }
+    },
+    "modal-trigger#header__top--login": {
+        "children": [
+            "rich-text#header__top--login",
+            "modal-layout#header__top--login"
+        ]
+    },
+    "rich-text#header__top--login": {
+        "props": {
+            "text": "login"
+        }
+    },
+    "modal-layout#header__top--login": {
+        "children": [
+            "login-content"
+        ]
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "Login",
+            "accessCodeTitle": "Access Code Login",
+            "emailPlaceHolder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+        }
+    }
+}
