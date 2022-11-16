@@ -1,3 +1,9 @@
 /*.notificationBarInner--home_section--one {
     background-color: black;
 }*/
+.vtex-flex-layout-0-x-stretchChildrenWidth {
+    width: 0%;
+}
+.imageElement {
+    padding: 3rem;
+}

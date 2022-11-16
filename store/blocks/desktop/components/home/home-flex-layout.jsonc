@@ -1,0 +1,80 @@
+{
+"flex-layout.row#home__category": {
+    "title": "category One",
+    "children": [
+      "flex-layout.row#home__category--image",
+      "flex-layout.col#home__category--text",
+      "flex-layout.row#home__category--image1",
+      "flex-layout.col#home__category--text1",
+      "flex-layout.row#home__category--image2",
+      "flex-layout.col#home__category--text2"
+    //  "flex-layout.row#home__category--image3",
+    //  "flex-layout.col#home__category--text3"
+    ],
+    "props": {
+      "blockClass": "home__category--one",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#home__category--image": {
+    "children": [
+      "image#home__category1--desktop"
+    ]
+  },
+  "flex-layout.col#home__category--text": {
+    "children": [
+      "rich-text#section__one--title"
+    ]
+  },
+  "rich-text#section__one--title": {
+    "props": {
+      "text": "[Todo](https://susanamartinez--itgloberspartnercl.myvtex.com/)"
+    }
+  },
+  "flex-layout.row#home__category--image1": {
+    "children": [
+      "image#home__category2--desktop"
+    ]
+  },
+  "flex-layout.col#home__category--text1": {
+    "children": [
+      "rich-text#section__one--title1"
+    ]
+  },
+  "rich-text#section__one--title1": {
+    "props": {
+      "text": "[Regalos y chocolates para mujer](https://susanamartinez--itgloberspartnercl.myvtex.com/)"
+    }
+  },
+  "flex-layout.row#home__category--image2": {
+    "children": [
+      "image#home__category3--desktop"
+    ]
+  },
+  "flex-layout.col#home__category--text2": {
+    "children": [
+      "rich-text#section__one--title2"
+    ]
+  },
+  "rich-text#section__one--title2": {
+    "props": {
+      "text": "[Regalos y chocolates para hombre](https://susanamartinez--itgloberspartnercl.myvtex.com/)"
+    }
+  }/*,
+  "flex-layout.row#home__category--image3": {
+    "children": [
+      "image#home__category4--desktop"
+    ]
+  },
+  "flex-layout.col#home__category--text3": {
+    "children": [
+      "rich-text#section__one--title3"
+    ]
+  },
+  "rich-text#section__one--title3": {
+    "props": {
+      "text": "[Chocolates sin azúcar](https://susanamartinez--itgloberspartnercl.myvtex.com/)"
+    }
+  }*/
+}

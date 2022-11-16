@@ -1,7 +1,8 @@
-.container {
+.rich-text--home__section--up,
+.rich-text--home__section--up,
+.rich-text--home__section--category {
     background-color: #f3f3f3;
 }
-
-.rich-text--home__section--up {
-    font-size: 4rem;
+.flexRowContent {
+    display: block;
 }

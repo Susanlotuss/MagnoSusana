@@ -1,0 +1,7 @@
+.flexRow--home__category--one {
+    display: flex;
+}
+
+.flexRowContent--home__category--one {
+    align-items: baseline;
+}

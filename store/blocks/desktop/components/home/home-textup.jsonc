@@ -1,7 +1,7 @@
 {
     "rich-text#home__section--up": {
         "props": {
-          "text": "Cada presentación cuenta una historia",
+          "text": "**Cada presentación cuenta una historia**",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
           "font": "WorkSans"

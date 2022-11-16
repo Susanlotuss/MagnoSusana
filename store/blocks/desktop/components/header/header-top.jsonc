@@ -1,8 +1,8 @@
 {
-
     "header-row#header__top": {
         "children": [
             "logo#header__top--logo",
+            "menu#web",
             "header-spacer",
             "login",
             "minicart.v2"
@@ -18,6 +18,200 @@
             "width": 160,
             "height": 68,
             "href": "/"
+        }
+    },
+    "menu#web": {
+        "children":[
+            "menu-item#chocolates",
+            "menu-item#tortas",
+            "menu-item#corporativos",
+            "menu-item#preguntas",
+            "menu-item#blog",
+            "menu-item#contactanos"
+        ]
+        
+    },
+    "menu-item#tortas": {
+        "props": {
+            "id": "menu-item-tortas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "tortas",
+                  "text": "Tortas"
+                }
+        }
+    },
+    "menu-item#corporativos": {
+        "props": {
+            "id": "menu-item-corporativos",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "corporativo",
+                  "text": "Corporativos"
+                }
+        }
+    },
+    "menu-item#preguntas": {
+        "props": {
+            "id": "menu-item-preguntas",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "preguntas",
+                  "text": "Preguntas frecuentes"
+                }
+        }
+    },
+    "menu-item#blog": {
+        "props": {
+            "id": "menu-item-blog",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "blog",
+                  "text": "Blog"
+                }
+        }
+    },
+    "menu-item#contactanos": {
+        "props": {
+            "id": "menu-item-contactanos",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/",
+                  "noFollow": false,
+                  "tagTitle": "contactanos",
+                  "text": "Contáctanos"
+                }
+        }
+    },
+    "menu-item#chocolates": {
+        "props": {
+            "id": "menu-item-chocolates",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Chocolates",
+                  "text": "Chocolates"
+                }
+        },
+        "blocks": [
+            "submenu.accordion#chocolates"
+        ]
+    },
+    "submenu.accordion#chocolates": {
+        "children": [
+            "menu#chocolates"
+        ]
+    },
+    "menu#chocolates": {
+        "children": [
+            "menu-item#category-chocolates--mujer",
+            "menu-item#category-chocolates--hombre",
+            "menu-item#category-chocolates--sin",
+            "menu-item#category-chocolates--unisex",
+            "menu-item#category-chocolates--todo",
+            "menu-item#category-chocolates--Regalos"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category-chocolates--mujer": {
+        "props": {
+            "id": "category-chocolates1",
+            "type":"custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow":true,
+                "tagTitle":"Chocolates",
+                "text": "Regalos y chocolates para mujer"
+            }
+        }
+    },
+    "menu-item#category-chocolates--hombre": {
+        "props": {
+            "id": "category-chocolates2",
+            "type":"custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow":true,
+                "tagTitle":"Chocolates",
+                "text": "Regalos y chocolates para hombre"
+            }
+        }
+    },
+    "menu-item#category-chocolates--sin": {
+        "props": {
+            "id": "category-chocolates3",
+            "type":"custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow":true,
+                "tagTitle":"Chocolates",
+                "text": "Chocolates sin azúcar"
+            }
+        }
+    },
+    "menu-item#category-chocolates--unisex": {
+        "props": {
+            "id": "category-chocolates4",
+            "type":"custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow":true,
+                "tagTitle":"Chocolates",
+                "text": "Chocolates unisex"
+            }
+        }
+    },
+    "menu-item#category-chocolates--todo": {
+        "props": {
+            "id": "category-chocolates5",
+            "type":"custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow":true,
+                "tagTitle":"Chocolates",
+                "text": "Todo"
+            }
+        }
+    },
+    "menu-item#category-chocolates--Regalos": {
+        "props": {
+            "id": "category-chocolates6",
+            "type":"custom",
+            "itemProps":{
+                "type": "external",
+                "href": "/",
+                "noFollow":true,
+                "tagTitle":"Chocolates",
+                "text": "Regalos para Halloween"
+            }
         }
     },
     "modal-trigger#header__top--login": {
@@ -38,6 +232,7 @@
     },
     "login": {
         "props": {
+            "iconLabel": " ",
             "emailAndPasswordTitle": "Login",
             "accessCodeTitle": "Access Code Login",
             "emailPlaceHolder": "e-mail",
