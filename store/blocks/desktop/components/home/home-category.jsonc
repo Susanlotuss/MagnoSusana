@@ -2,8 +2,6 @@
   "image#home__category1--desktop": {
     "props": {
       "src": "assets/img/magnocategory011.jpg",
-      "maxHeight": 420,
-      "maxWidth": 500,
       "link": {
         "url": "/"
       }
@@ -11,9 +9,7 @@
   },
   "image#home__category2--desktop": {
     "props": {
-      "src": "assets/img/magnocategory022.jpg",
-      "maxHeight": 420,
-      "maxWidth": 550,
+      "src": "assets/img/magnocategory022.jpg", 
       "link": {
         "url": "/"
       }
@@ -21,9 +17,7 @@
   },
   "image#home__category3--desktop": {
     "props": {
-      "src": "assets/img/magnocategory03.jpg",
-      "maxHeight": 420,
-      "maxWidth": 500,
+      "src": "assets/img/magnocategory088.jpg",
       "link": {
         "url": "/"
       }
@@ -31,9 +25,39 @@
   },
   "image#home__category4--desktop": {
     "props": {
-      "src": "assets/img/magnocategory04.jpg",
-      "maxHeight": 420,
-      "maxWidth": 500,
+      "src": "assets/img/magnocategory099.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category5--desktop": {
+    "props": {
+      "src": "assets/img/magnocategory055.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category6--desktop": {
+    "props": {
+      "src": "assets/img/magnocategory066.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category7--desktop": {
+    "props": {
+      "src": "assets/img/magnocategory077.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category8--desktop": {
+    "props": {
+      "src": "assets/img/magnocategory044.jpg",
       "link": {
         "url": "/"
       }

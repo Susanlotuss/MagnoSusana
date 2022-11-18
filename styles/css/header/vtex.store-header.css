@@ -1,3 +1,8 @@
 .headerRowBackground--header__top {
     background-color: white;
 }
+
+/*.headerRowContainer--header__middle {
+    display: flex;
+    align-items: center;
+}*/

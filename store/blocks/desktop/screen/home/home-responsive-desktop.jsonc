@@ -6,6 +6,7 @@
             "link#home__product-page",
             "rich-text#home__section--up",
             "rich-text#home__section--down",
+           "rich-text#global__categories--title",
             "flex-layout.row#home__category"
 
         ],

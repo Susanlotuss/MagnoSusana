@@ -1,8 +1,18 @@
-.rich-text--home__section--up,
-.rich-text--home__section--up,
-.rich-text--home__section--category {
+.container--welcome-text {
     background-color: #f3f3f3;
 }
 .flexRowContent {
     display: block;
+}
+.wrapper--categorias__favoritas {
+    margin: 1rem;
+}
+.container--category__text {
+    background-color: #f3f3f3;
+    border-bottom: 8px solid white;
+}
+.link--category__text {
+    color: black;
+    text-decoration: none;
+    padding-left: 1rem;
 }

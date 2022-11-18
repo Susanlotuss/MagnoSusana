@@ -1,14 +1,13 @@
 {
-    "slider-layout#home__slider--children": {
-        "title": "home__children--slider",
+    "slider-layout#mobile__slider--children": {
+        "title": "mobile__children--slider",
         "props": {
             "itemsPerPage": {
-                "desktop": 2,
                 "tablet": 2,
                 "mobile": 2
             },
             "infinite": true,
-            "blockClass": "home__slider",
+            "blockClass": "mobile__slider",
             "showPaginationDots": "never",
             "autoplay": {
                 "timeout": 3000,
@@ -16,37 +15,30 @@
             }
         },
         "children": [
-            "image#home__slider--one",
-            "image#home__slider--two",
-            "image#home__slider--three"
+            "image#mobile__slider--1",
+            "image#mobile__slider--2",
+            "image#mobile__slider--3"
         ]
     },
-    "image#home__slider--one": {
+    "image#mobile__slider--1": {
         "props": {
             "src": "assets/img/magnoslideM.jpg"
         //    "min-height": 320
         //    "maxWidth": 600
         }
     },
-    "image#home__slider--two": {
+    "image#mobile__slider--2": {
         "props": {
             "src": "assets/img/magnoblack.jpg"
         //    "min-height": 320
         //    "maxWidth": 600
         }
     },
-    "image#home__slider--three": {
+    "image#mobile__slider--3": {
         "props": {
             "src": "assets/img/magnopink.jpg"
          //   "min-height": 320
          //   "maxWidth": 600
-        }
-    },
-    "link#home__product-page": {
-        "props": {
-            "displayMode": "button",
-            //"href": "/{slug}/p",
-            "label": "Nuevo kit para pintar"
         }
     }
 }
