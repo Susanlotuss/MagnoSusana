@@ -6,3 +6,17 @@
     display: flex;
     align-items: center;
 }*/
+@media screen and (max-width: 750px) {
+    .headerRowContainer--header__middle {
+        padding-top: 1rem;
+            padding-bottom: 1rem;
+    }
+}
+
+    @media screen and (min-width: 990px) {
+        .headerRowContainer--header__top {
+            padding-top: 1.6rem;
+            padding-bottom: 1.2rem;
+            margin-bottom: 7px;
+        }
+    }

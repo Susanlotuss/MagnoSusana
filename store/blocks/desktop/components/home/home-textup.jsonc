@@ -5,7 +5,6 @@
           "text": "**Cada presentación cuenta una historia**",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "WorkSans",
           "blockClass": "welcome-text"
         }
       },
@@ -14,7 +13,6 @@
           "text": "Gemas de chocolate real decoradas con oro de 24 k, pintados a mano lo que hace que cada diseño sea único.",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "WorkSans",
           "blockClass": "welcome-text"
         }
       },

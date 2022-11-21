@@ -46,7 +46,7 @@
         "props": {
             "displayMode": "button",
             //"href": "/{slug}/p",
-            "label": "Nuevo kit para pintar"
+            "label": "Comprar"
         }
     }
 }

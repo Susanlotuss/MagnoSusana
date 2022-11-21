@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Work Sans', sans-serif;
-    src: url('assets/fonts/WorkSans-Regular.ttf');
-    weight: 400;
-}
+    font-family: 'fontOne';
+    src: url(assets/fonts/WorkSans-Regular.ttf);
+    font-weight: 400;
+  }

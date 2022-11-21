@@ -16,6 +16,7 @@
   "header-layout.desktop": {
     "title":"Header Desktop",
     "children": [
+      "rich-text#home__top",
       "header-row#header__top"
     ]
   }

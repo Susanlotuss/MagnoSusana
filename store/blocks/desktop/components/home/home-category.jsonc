@@ -9,7 +9,7 @@
   },
   "image#home__category2--desktop": {
     "props": {
-      "src": "assets/img/magnocategory022.jpg", 
+      "src": "assets/img/magnocategory022.jpg",
       "link": {
         "url": "/"
       }

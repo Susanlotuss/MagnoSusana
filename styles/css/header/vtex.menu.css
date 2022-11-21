@@ -4,3 +4,11 @@
     background-color: white;
     width: 18rem;
 }
+
+@media screen and (min-width: 990px) {
+    .styledLinkContent {
+        font-size: 14px;
+        color: #121212BF;
+        letter-spacing: 1px;
+    }
+}

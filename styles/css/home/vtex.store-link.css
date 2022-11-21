@@ -5,6 +5,7 @@
     text-align: center;
     margin: auto;
     position: absolute;
+    text-transform: capitalize;
 }
 
 .label {
