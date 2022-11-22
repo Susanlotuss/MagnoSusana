@@ -1,5 +1,6 @@
 {
     "header-row#header__top": {
+        "title": "header__desktop--menu",
         "children": [
             "logo#header__top--logo",
             "menu#web",
@@ -8,7 +9,8 @@
             "minicart.v2"
         ],
         "props": {
-            "blockClass": "header__top"
+            "sticky": true,
+            "blockClass": "desktop__menus"
         }
     },
     "logo#header__top--logo": {
@@ -28,8 +30,11 @@
             "menu-item#preguntas",
             "menu-item#blog",
             "menu-item#contactanos"
-        ]
-        
+        ],
+        "props":{
+          "orientation": "horizontal",
+          "blockClass": "container__desktop--menu"
+        }
     },
     "menu-item#tortas": {
         "props": {
@@ -103,8 +108,9 @@
     },
     "menu-item#chocolates": {
         "props": {
-            "id": "menu-item-chocolates",
+            "id": "category-desktop--chocolates",
                 "type": "custom",
+                "blockClass": "category-submenu",
                 "highlight": false,
                 "itemProps": {
                   "type": "internal",
@@ -121,7 +127,11 @@
     "submenu.accordion#chocolates": {
         "children": [
             "menu#chocolates"
-        ]
+        ],
+        "props":{
+            "blockClass": "chocolates-container",
+            "onMountBehavior": "open"        
+          }
     },
     "menu#chocolates": {
         "children": [
@@ -133,7 +143,8 @@
             "menu-item#category-chocolates--Regalos"
         ],
         "props": {
-            "orientation": "vertical"
+            "orientation": "vertical",
+            "blockClass": "chocolates-list"
         }
     },
     "menu-item#category-chocolates--mujer": {
