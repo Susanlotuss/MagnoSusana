@@ -121,10 +121,10 @@
                 }
         },
         "blocks": [
-            "submenu.accordion#chocolates"
+            "submenu#chocolates"
         ]
     },
-    "submenu.accordion#chocolates": {
+    "submenu#chocolates": {
         "children": [
             "menu#chocolates"
         ],
@@ -221,7 +221,7 @@
                 "href": "/",
                 "noFollow":true,
                 "tagTitle":"Chocolates",
-                "text": "Regalos para Halloween"
+                "text": "Regalos Navidad"
             }
         }
     },

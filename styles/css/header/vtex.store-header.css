@@ -1,6 +1,12 @@
 .headerRowBackground--header__top {
     background-color: white;
 }
+.headerRowContainer--desktop__menus {
+    justify-content: center;
+}
+.headerSpacer {
+    flex-grow: 0.4;
+}
 /*.headerRowContainer--header__middle {
     display: flex;
     align-items: center;

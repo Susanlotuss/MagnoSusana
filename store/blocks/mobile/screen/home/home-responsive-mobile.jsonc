@@ -1,20 +1,22 @@
 {
-    "responsive-layout.mobile#home__info--mobile": {
-        "title": "Mobile component",
-        "children": [
-            "slider-layout#mobile__slider--children",
-            "rich-text#home__section--up",
-            "rich-text#home__section--down",
-            "slider-layout#mobile__category"
-
-        ],
-        "props": {
-            "blockClass": "mobile__responsive"
-        }
-    },
-    "rich-text#home__info--mobile": {
-        "props": {
-            "text": "# Resolucion de Mobile"
-        }
+  "responsive-layout.mobile#home__info--mobile": {
+    "title": "Mobile component",
+    "children": [
+      "link#home__product-page",
+      "slider-layout#mobile__slider--children",
+      "rich-text#home__section--up",
+      "rich-text#home__section--down",
+      "rich-text#global__categories--title"
+   //   "flex-layout.row#mobile__categories"
+      //   "slider-layout#mobile__category"
+    ],
+    "props": {
+      "blockClass": "mobile__responsive"
     }
+  },
+  "rich-text#home__info--mobile": {
+    "props": {
+      "text": "# Resolucion de Mobile"
+    }
+  }
 }

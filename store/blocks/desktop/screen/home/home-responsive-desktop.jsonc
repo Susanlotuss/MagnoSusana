@@ -2,8 +2,8 @@
   "responsive-layout.desktop#home__info--desktop": {
     "title": "Desktop component",
     "children": [
-      "slider-layout#home__slider--children",
       "link#home__product-page",
+      "slider-layout#home__slider--children",
       "rich-text#home__section--up",
       "rich-text#home__section--down",
       "rich-text#global__categories--title",

@@ -61,8 +61,27 @@
     line-height: 1.1;
   }
   .container--notification-bar {
-    padding-top: 7px;
-    padding-bottom: 11px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .link--category__text {
+    font-size: 1.7rem;
+  }
+  .paragraph--welcome-text2 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+  }
+  .paragraph--welcome-text {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 18px;
+  }
+  .paragraph--categorias__favoritas {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 751px) {
@@ -71,5 +90,10 @@
   }
   .paragraph--categorias__favoritas {
     font-size: 24px;
+  }
+  .link--category__text {
+    font-size: 1.1rem;
+    letter-spacing: .06rem;
+    word-break: break-word;
   }
 }

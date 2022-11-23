@@ -1,5 +1,5 @@
 {
-    "slider-layout#mobile__slider--children": {
+   "slider-layout#mobile__slider--children": {
         "title": "mobile__children--slider",
         "props": {
             "itemsPerPage": {
