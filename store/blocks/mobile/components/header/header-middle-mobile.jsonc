@@ -11,8 +11,18 @@
         }
     },
     "drawer#header__mobile--menu": {
-        "children": ["menu#header__menu"],
-        "blocks": ["drawer-trigger"]
+        "children": [
+            "menu#header__menu",
+             "login#menu__mobile"
+            ],
+        "blocks": [
+            "drawer-trigger"
+        ],
+        "props": {
+            "isFullWidth": false,
+            "backdropMode": "default",
+            "blockClass": "drawer__menu"
+        }
     },
     "drawer-trigger": {
         "children": [
@@ -27,7 +37,11 @@
     "menu#header__menu": {
         "children": [
             "menu-item#department__one",
-            "menu-item#department__two"
+            "menu-item#department__two",
+            "menu-item#department__three",
+            "menu-item#department__four",
+            "menu-item#department__five",
+            "menu-item#department__six"
         ],
         "props": {
             "orientation": "vertical"
@@ -57,7 +71,11 @@
     "menu#department__one": {
         "children": [
             "menu-item#category__one",
-            "menu-item#category__two"
+            "menu-item#category__two",
+            "menu-item#category__three",
+            "menu-item#category__four",
+            "menu-item#category__five",
+            "menu-item#category__six"
         ],
         "props": {
             "orientation": "vertical"
@@ -71,8 +89,8 @@
                 "type": "external",
                 "href": "/",
                 "noFollow": true,
-                "tagTitle": "Tortas",
-                "text": "Tortas"
+                "tagTitle": "Navidad",
+                "text": "Regalos Navidad"
             }
         }
     },
@@ -84,14 +102,92 @@
                 "type": "external",
                 "href": "/",
                 "noFollow": true,
-                "tagTitle": "Corporativos",
-                "text": "Corporativos"
+                "tagTitle": "Para mujer",
+                "text": "Regalos y chocolates para mujer"
+            }
+        }
+    },
+    "menu-item#category__three": {
+        "props": {
+            "id": "category-three",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Para hombre",
+                "text": "Regalos y chocolates para hombre"
+            }
+        }
+    },
+    "menu-item#category__four": {
+        "props": {
+            "id": "category-four",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "sin azucar",
+                "text": "Chocolates sin azúcar"
+            }
+        }
+    },
+    "menu-item#category__five": {
+        "props": {
+            "id": "category-five",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "unisex",
+                "text": "Chocolates unisex"
+            }
+        }
+    },
+    "menu-item#category__six": {
+        "props": {
+            "id": "category-six",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "todo",
+                "text": "Todo"
             }
         }
     },
     "menu-item#department__two": {
         "props": {
-            "id": "department-one",
+            "id": "department-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Tortas",
+                "text": "Tortas"
+            }
+        }
+    },
+    "menu-item#department__three": {
+        "props": {
+            "id": "department-three",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Corporativos",
+                "text": "Corporativos"
+            }
+        }
+    },
+    "menu-item#department__four": {
+        "props": {
+            "id": "department-four",
             "type": "custom",
             "itemProps": {
                 "type": "external",
@@ -100,6 +196,44 @@
                 "tagTitle": "Preguntas frecuentes",
                 "text": "Preguntas frecuentes"
             }
+        }
+    },
+    "menu-item#department__five": {
+        "props": {
+            "id": "department-five",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Blog",
+                "text": "Blog"
+            }
+        }
+    },
+    "menu-item#department__six": {
+        "props": {
+            "id": "department-six",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href": "/",
+                "noFollow": true,
+                "tagTitle": "Contáctanos",
+                "text": "Contáctanos"
+            }
+        }
+    },
+    "login#menu__mobile": {
+        "props": {
+            "iconLabel": "hola",
+            "emailAndPasswordTitle": "Login",
+            "accessCodeTitle": "Access Code Login",
+            "emailPlaceHolder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "labelClasses": "login__m"
         }
     }
 }

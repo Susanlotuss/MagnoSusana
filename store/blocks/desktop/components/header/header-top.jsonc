@@ -5,7 +5,7 @@
             "logo#header__top--logo",
             "menu#web",
             "header-spacer",
-            "login",
+            "login#header__desktop",
             "minicart.v2"
         ],
         "props": {
@@ -241,7 +241,7 @@
             "login-content"
         ]
     },
-    "login": {
+    "login#header__desktop": {
         "props": {
             "iconLabel": " ",
             "emailAndPasswordTitle": "Login",

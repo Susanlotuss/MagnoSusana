@@ -1,55 +1,68 @@
 .submenuAccordion--chocolates-container--isOpen {
-    position: absolute;
-    z-index: 1;
+  position: absolute;
+  z-index: 1;
 }
 .submenuWrapper--chocolates-container--isOpen {
-    padding-bottom: 0;
-    padding-top: 0;
-    border-width: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  border-width: 0;
 }
-.submenuAccordion--chocolates-container {   
-    padding-left: 0px;
+.submenuAccordion--chocolates-container {
+  padding-left: 0px;
 }
 .menuItem--category-submenu {
-    position: relative;
+  position: relative;
 }
 .menuItem--category-submenu--isOpen {
-    
-    justify-content: normal;
-    height: 0px;
-    transition: auto 0s ease 0s;
+  justify-content: normal;
+  height: 0px;
+  transition: auto 0s ease 0s;
 }
 .menuItem--category-submenu--isClosed {
-    
-    justify-content: normal;
-    height: 0px;
-    transition: auto 0s ease 0s;
+  justify-content: normal;
+  height: 0px;
+  transition: auto 0s ease 0s;
 }
 .styledLinkContent--category-submenu {
-    justify-content: normal;
+  justify-content: normal;
 }
 .styledLinkContent {
-    white-space: normal;
+  white-space: normal;
 }
-
 .menuContainer--chocolates-list {
-    background-color: white;
-    border: 1px solid #dddddd;
-    min-width: 12rem;
-    padding: 1rem;
+  background-color: white;
+  border: 1px solid #dddddd;
+  min-width: 12rem;
+  padding: 1rem;
 }
 .menuItem.list {
-    width: 10rem;
+  width: 10rem;
+}
+.menuContainerNav {
+    box-sizing: content-box;
 }
 
 @media screen and (min-width: 990px) {
-    .styledLinkContent {
-        font-size: 14px;
-        color: #121212BF;
-        letter-spacing: 1px;
-    }
-    .styledLinkContainer {
-        margin: 0;
-        padding: 12px;
-    }
+  .styledLinkContent {
+    font-size: 14px;
+    color: #121212bf;
+    letter-spacing: 1px;
+  }
+  .styledLinkContainer {
+    margin: 0;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .styledLinkContent {
+    font-size: 18px;
+    color: #121212;
+    padding-top: 11px;
+    padding-right: 3.2rem;
+    padding-bottom: 11px;
+    padding-left: 10px;
+  }
+  .menuContainerNav {
+    padding-bottom: 2rem;
+  }
 }

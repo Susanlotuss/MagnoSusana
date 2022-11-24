@@ -13,10 +13,10 @@
     "props": {
       "blockClass": "mobile__responsive"
     }
-  },
-  "rich-text#home__info--mobile": {
+  }
+/*  "rich-text#home__info--mobile": {
     "props": {
       "text": "# Resolucion de Mobile"
     }
-  }
+  }*/
 }

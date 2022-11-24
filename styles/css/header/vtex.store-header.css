@@ -1,27 +1,27 @@
 .headerRowBackground--header__top {
-    background-color: white;
+  background-color: white;
 }
 .headerRowContainer--desktop__menus {
-    justify-content: center;
+  justify-content: center;
 }
 .headerSpacer {
-    flex-grow: 0.4;
+  flex-grow: 0.4;
 }
 /*.headerRowContainer--header__middle {
     display: flex;
     align-items: center;
 }*/
 @media screen and (max-width: 750px) {
-    .headerRowContainer--header__middle {
-        padding-top: 1rem;
-            padding-bottom: 1rem;
-    }
+  .headerRowContainer--header__middle {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 
-    @media screen and (min-width: 990px) {
-        .headerRow--desktop__menus {
-            padding-top: 1.6rem;
-            padding-bottom: 1.2rem;
-            margin-bottom: 7px;
-        }
-    }
+@media screen and (min-width: 990px) {
+  .headerRow--desktop__menus {
+    padding-top: 1.6rem;
+    padding-bottom: 1.2rem;
+    margin-bottom: 7px;
+  }
+}

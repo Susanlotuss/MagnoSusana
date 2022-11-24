@@ -1,0 +1,27 @@
+@media screen and (max-width: 750px) {
+  .drawer {
+    top: 10.45rem;
+    width: 89%;
+  }
+  .styledLinkContent {
+    font-size: 18px;
+  }
+  .childrenContainer {
+    box-sizing: inherit;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}
+:global(.vtex-login-2-x-label) {
+    display: block;
+    color: #121212
+}
+:global(.vtex-login-2-x-buttonLink) {
+    background-color: #12121208;
+    padding: 20px;
+}
+
+:global(.vtex-login-2-x-profileIcon) {
+    color: #121212;
+}
