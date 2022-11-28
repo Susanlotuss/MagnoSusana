@@ -2,7 +2,8 @@
     "header-row#header__middle": {
         "title": "middle-mobile--header",
         "children": [
-            "drawer#header__mobile--menu",
+            "category-menu#megamenu__mobile",
+         //   "drawer#header__mobile--menu",
             "logo#header__top--logo-mobile",
             "minicart.v2"
         ],
@@ -10,7 +11,17 @@
             "blockClass": "header__middle"
         }
     },
-    "drawer#header__mobile--menu": {
+    "category-menu#megamenu__mobile": {
+        "props": {
+            "showAllDepartments": true,
+            "showSubcategories": true,
+            "menuDisposition": "left",
+            "mobileMode": true,
+            "departments": [],
+            "sortSubcategories": "name"
+          }
+    },
+ /*   "drawer#header__mobile--menu": {
         "title": "mobile-menu--drawer",
         "children": [
             "menu#header__menu",
@@ -225,7 +236,7 @@
                 "text": "Contáctanos"
             }
         }
-    },
+    },*/
     "login#menu__mobile": {
         "title": "mobile-login",
         "props": {
