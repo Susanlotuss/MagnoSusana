@@ -9,7 +9,6 @@
   left: 50%;
   margin-left: -67px;
   top: 50%;
-  margin-top: -105px;
   font-size: 15px;
   letter-spacing: 1px;
   height: 3rem;
@@ -28,11 +27,10 @@
   background-color: white;
   border-color: white;
 }
-/*@media screen and (max-width: 750px) {
+@media screen and (max-width: 1440px) {
   .buttonLink {
     left: 50%;
-    margin-left: -67px;
-    top: 50%;
-    margin-top: -65px;
+  margin-left: -67px;
+  top: 50%;
   }
-}*/
+}
