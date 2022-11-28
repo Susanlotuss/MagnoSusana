@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__category": {
-    "title": "category One",
+    "title": "home-category--grid",
     "children": [
       "flex-layout.col#home__category--imageText",
       "flex-layout.col#home__category--imageText2",

@@ -1,6 +1,6 @@
 {
     "slider-layout#home__slider--children": {
-        "title": "home__children--slider",
+        "title": "home--slider",
         "props": {
             "itemsPerPage": {
                 "desktop": 2,
@@ -22,6 +22,7 @@
         ]
     },
     "image#home__slider--one": {
+        "title": "image1-home--slider",
         "props": {
             "src": "assets/img/magnoslideM.jpg"
         //    "min-height": 320
@@ -29,6 +30,7 @@
         }
     },
     "image#home__slider--two": {
+        "title": "image2-home--slider",
         "props": {
             "src": "assets/img/magnoblack.jpg"
         //    "min-height": 320
@@ -36,6 +38,7 @@
         }
     },
     "image#home__slider--three": {
+        "title": "image3-home--slider",
         "props": {
             "src": "assets/img/magnopink.jpg"
          //   "min-height": 320
@@ -43,6 +46,7 @@
         }
     },
     "link#home__product-page": {
+        "title": "slider-button--On",
         "props": {
             "displayMode": "button",
             //"href": "/{slug}/p",

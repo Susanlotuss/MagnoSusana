@@ -1,6 +1,6 @@
 {
     "header-row#header__middle": {
-        "title": "Header Medio",
+        "title": "middle-mobile--header",
         "children": [
             "drawer#header__mobile--menu",
             "logo#header__top--logo-mobile",
@@ -11,6 +11,7 @@
         }
     },
     "drawer#header__mobile--menu": {
+        "title": "mobile-menu--drawer",
         "children": [
             "menu#header__menu",
              "login#menu__mobile"
@@ -35,6 +36,7 @@
         }
     },
     "menu#header__menu": {
+        "title": "mobile-header--menu",
         "children": [
             "menu-item#department__one",
             "menu-item#department__two",
@@ -225,6 +227,7 @@
         }
     },
     "login#menu__mobile": {
+        "title": "mobile-login",
         "props": {
             "iconLabel": "hola",
             "emailAndPasswordTitle": "Login",

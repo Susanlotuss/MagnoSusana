@@ -1,5 +1,6 @@
 {
   "rich-text#home__top": {
+    "title": "notification-bar--home",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

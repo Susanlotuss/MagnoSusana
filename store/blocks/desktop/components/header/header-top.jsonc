@@ -23,6 +23,7 @@
         }
     },
     "menu#web": {
+        "title": "menu-item--desktop",
         "children":[
             "menu-item#chocolates",
             "menu-item#tortas",
@@ -242,6 +243,7 @@
         ]
     },
     "login#header__desktop": {
+        "title": "login-desktop",
         "props": {
             "iconLabel": " ",
             "emailAndPasswordTitle": "Login",
