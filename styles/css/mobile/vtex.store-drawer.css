@@ -11,9 +11,8 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
 }
-:global(.vtex-login-2-x-label) {
+/*:global(.vtex-login-2-x-label) {
     display: block;
     color: #121212
 }
@@ -24,4 +23,4 @@
 
 :global(.vtex-login-2-x-profileIcon) {
     color: #121212;
-}
+}*/
