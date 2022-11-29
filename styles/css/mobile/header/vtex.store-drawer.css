@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 750px) {
   .drawer {
     top: 10.45rem;
     width: 89%;
@@ -11,7 +11,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-}
+}*/
 /*:global(.vtex-login-2-x-label) {
     display: block;
     color: #121212
