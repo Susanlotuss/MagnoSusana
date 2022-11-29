@@ -12,13 +12,15 @@
         }
     },
     "category-menu#megamenu__mobile": {
+        "title": "category-menu--mobile",
         "props": {
             "showAllDepartments": true,
             "showSubcategories": true,
             "menuDisposition": "left",
             "mobileMode": true,
             "departments": [],
-            "sortSubcategories": "name"
+            "sortSubcategories": "name",
+            "blockClass": "mobile--menu"
           }
     },
  /*   "drawer#header__mobile--menu": {
