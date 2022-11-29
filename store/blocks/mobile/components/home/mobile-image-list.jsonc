@@ -1,6 +1,62 @@
 {
-  /*  "flex-layout.row#mobile__categories": {
-        "title": "category One",
+  "slider-layout#mobile__categories": {
+    "title": "mobile__slider--categories",
+    "props":{
+      "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "mobile": 1
+      },
+      "showPaginationDots":"always",
+      "showNavigationArrows": "never",
+      "infinite": true,
+      "usePagination" : true
+     },
+    "children": [
+      "flex-layout.row#mobile__category",
+      "flex-layout.row#mobile__categoryys--imageText"
+    ]
+  },
+  "flex-layout.row#mobile__category": {
+    "title": "mobile-category--gridd",
+    "children": [
+      "flex-layout.col#mobile__categoryy--imageText"
+    ]
+},
+"flex-layout.col#mobile__categoryy--imageText": {
+  "children": [
+    "flex-layout.col#mobile__categoryyyy--imageText"
+   ]
+},
+"flex-layout.col#mobile__categoryyyy--imageText": {
+  "children": [
+    "rich-text#lllll",
+    "rich-text#yyyyy"
+   ]
+},
+"rich-text#lllll": {
+  "props": {
+    "text": "hola"
+  }
+},
+"rich-text#yyyyy": {
+  "props": {
+    "text": "holis"
+  }
+},
+"flex-layout.row#mobile__categoryys--imageText": {
+  "children": [
+    "flex-layout.col#mobile__categor--imageText"
+   ]
+},
+"flex-layout.col#mobile__categor--imageText": {
+  "children": [
+    "rich-text#lllll",
+    "rich-text#yyyyy"
+   ]
+}
+  /*"flex-layout.row#mobile__category": {
+    "title": "mobile-category--grid",
     "children": [
       "flex-layout.col#mobile__category--imageText"
     ],
@@ -9,23 +65,13 @@
       "fullWidth": false,
       "horizontalAlign": "center"
   }
-    },
-    "flex-layout.col#mobile__category--imageText": {
-        "children": [
-            "image#home__category1--desktop",
-            "rich-text#section__one--title",
-            "image#home__category2--desktop",
-            "rich-text#section__one--title1"
-        ]
-    },
-    "rich-text#section__one--title": {
-        "props": {
-          "text": "[Todo](https://susanamartinez--itgloberspartnercl.myvtex.com/)"
-        }
-      },
-      "rich-text#section__one--title1": {
-        "props": {
-          "text": "[Regalos y chocolates para mujer](https://susanamartinez--itgloberspartnercl.myvtex.com/)"
-        }
-      }*/
+},
+"flex-layout.col#mobile__category--imageText": {
+  "children": [
+    "image#home__category1--desktop",
+    "rich-text#section__one--title",
+    "image#home__category2--desktop",
+    "rich-text#section__one--title1"
+   ]
+}*/
 }
