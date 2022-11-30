@@ -29,4 +29,23 @@
     .paragraph--categorias__favoritas {
       font-size: 20px;
     }
+    .container--category__text--mobile {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+    .container--category__text2--mobile {
+
+    }
+    .link--category__text--mobile,
+    .link--category__text2--mobile {
+      font-size: 17px;
+      color: #121212;
+      text-decoration: none;
+      word-break: break-word;
+    }
+    .paragraph--category__text--mobile,
+    .paragraph--category__text2--mobile {
+      margin-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
