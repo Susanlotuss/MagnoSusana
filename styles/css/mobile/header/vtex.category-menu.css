@@ -14,10 +14,9 @@
         display: none;
     }
     .sidebarContent {
-        padding-top: 5.6rem;
-        padding-bottom: 5.6rem;
+        padding-top: 3rem;
     }
-    .t-body.lh-solid {
-        font-size: 18px;
+    .sidebarItemContainer {
+        padding-left: 3rem;
     }
 }
