@@ -1,12 +1,13 @@
-.slideChildrenContainer--home__slider {
-    min-height: 420px;
-    max-height: 420px;
+@media screen and (max-width: 750px) {
+    .slideChildrenContainer--home__slider {
+        min-height: 420px;
+        max-height: 420px;
+    }
+    .paginationDotsContainer--home__slider {
+        transform: translateY(30px);
+    }
 }
-.paginationDotsContainer--home__slider {
-    transform: translateY(30px);
-}
-
-/*@media screen and (max-width: 749px)
+/*@media screen and (min-width: 749px)
 .slideChildrenContainer--home__slider {
     min-height: 28rem;
 }*/

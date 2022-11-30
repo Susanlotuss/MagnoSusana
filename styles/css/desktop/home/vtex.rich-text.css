@@ -52,38 +52,7 @@
   width: 100%;
   font-weight: 500;
 }
-/*@media screen and (max-width: 750px) {
-  .link--notification-bar {
-    font-size: 12px;
-    word-break: break-word;
-  }
-  .paragraph--notification-bar {
-    line-height: 1.1;
-  }
-  .container--notification-bar {
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-  }
-  .link--category__text {
-    font-size: 1.7rem;
-  }
-  .paragraph--welcome-text2 {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 15px;
-  }
-  .paragraph--welcome-text {
-    font-size: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 18px;
-  }
-  .paragraph--categorias__favoritas {
-    font-size: 20px;
-  }
-}*/
+
 @media screen and (min-width: 751px) {
   .paragraph--welcome-text {
     font-size: 24px;
