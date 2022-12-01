@@ -7,6 +7,10 @@
 .headerSpacer {
   flex-grow: 0.4;
 }
+.headerStickyRow--desktop__menus {
+  top: 0;
+  background-color: white;
+}
 /*.headerRowContainer--header__middle {
     display: flex;
     align-items: center;

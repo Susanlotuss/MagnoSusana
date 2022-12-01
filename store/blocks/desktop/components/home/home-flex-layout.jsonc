@@ -52,19 +52,19 @@
 },
 "rich-text#section__one1--title": {
   "props": {
-    "text": "[Todo](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Todo ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one2--title1": {
   "props": {
-    "text": "[Chocolates sin azúcar](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Chocolates sin azúcar ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one3--title2": {
   "props": {
-    "text": "[Tortas](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Tortas ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
@@ -81,19 +81,19 @@
 },
 "rich-text#section__one--title": {
   "props": {
-    "text": "[Regalos Navidad](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Regalos Navidad ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one--title1": {
   "props": {
-    "text": "[Regalos y chocolates para hombre](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Regalos y chocolates para hombre ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one--title2": {
   "props": {
-    "text": "[Chocolates unisex](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Chocolates unisex ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
@@ -110,13 +110,13 @@
 },
 "rich-text#section__one11--title": {
   "props": {
-    "text": "[Regalos y chocolates para mujer](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Regalos y chocolates para mujer ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one22--title1": {
   "props": {
-    "text": "[Chocolates para niños](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+    "text": "[Chocolates para niños ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 }
