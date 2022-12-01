@@ -52,6 +52,16 @@
   width: 100%;
   font-weight: 500;
 }
+.image--category__text,
+.image--category__text--mobile,
+.image--category__text2--mobile {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-flex;
+  align-self: center;
+  top: 0.4em;
+  position: relative;
+}
 
 @media screen and (min-width: 751px) {
   .paragraph--welcome-text {

@@ -8,6 +8,7 @@
             "minicart.v2"
         ],
         "props": {
+            "sticky": true,
             "blockClass": "header__middle"
         }
     },
