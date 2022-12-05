@@ -1,0 +1,22 @@
+@media screen and (max-width: 750px) {
+    .sidebarScrim {
+        top: 9rem;
+        background-color: black;
+    }
+    .animation {
+        top: 8.9rem;
+        width: 92%;
+    }
+    .sidebar {
+        box-shadow: none;
+    }
+    .sidebarHeader {
+        display: none;
+    }
+    .sidebarContent {
+        padding-top: 3rem;
+    }
+    .sidebarItemContainer {
+        padding-left: 3rem;
+    }
+}

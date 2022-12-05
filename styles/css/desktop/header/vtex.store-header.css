@@ -1,0 +1,30 @@
+.headerRowBackground--header__top {
+  background-color: white;
+}
+.headerRowContainer--desktop__menus {
+  justify-content: center;
+}
+.headerStickyRow--desktop__menus {
+  top: 0;
+  background-color: white;
+}
+/*.headerRowContainer--header__middle {
+    display: flex;
+    align-items: center;
+}*/
+/*@media screen and (max-width: 750px) {
+  .headerRowContainer--header__middle {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}*/
+@media screen and (min-width: 990px) {
+  .headerRow--desktop__menus {
+    padding-top: 1.6rem;
+    padding-bottom: 1.2rem;
+    margin-bottom: 7px;
+  }
+  .headerSpacer {
+    flex-grow: 0.4;
+  }
+}

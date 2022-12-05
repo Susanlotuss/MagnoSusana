@@ -1,0 +1,10 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "rich-text#home__top",
+      "header-row#header__middle"
+     /*, "header-row#header__top--mobile"*/
+    ]
+  }
+}

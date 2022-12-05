@@ -1,0 +1,119 @@
+{
+  "image#home__category1--desktop": {
+    "title": "image1-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory011.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#home__category2--desktop": {
+    "title": "image2-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory022.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#home__category3--desktop": {
+    "title": "image3-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory088.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#home__category4--desktop": {
+    "title": "image4-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory099.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category5--desktop": {
+    "title": "image5-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory055.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category6--desktop": {
+    "title": "image6-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory066.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category7--desktop": {
+    "title": "image7-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory077.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   },
+   "image#home__category8--desktop": {
+    "title": "image8-category--desktop",
+    "props": {
+      "src": "assets/img/magnocategory044.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+   }
+  /*"info-card#home__category--desktop": {
+      "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "assets/img/magnocategory01.jpg",
+          "blockClass": "info-card-home__category",
+          "imageActionUrl": "/"
+        }
+  }*/
+
+
+  /*"list-context.image-list": {
+      "children": [
+          "slider-layout#demo-images"
+      ],
+      "props": {
+          "preload": true,
+          //"height": 100,
+          "images": [
+            {
+              "image": "assets/img/magnoblue.jpg",
+              "description": "something something"
+            },
+            {
+              "image": "",
+              "description": "something something"
+            }
+          ],
+          "link": {
+              "url": "/"
+          }
+        }
+  },
+  "slider-layout#demo-images": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": false
+      }
+    }*/
+
+}

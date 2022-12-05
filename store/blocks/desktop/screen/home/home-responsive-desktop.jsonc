@@ -1,0 +1,21 @@
+{
+  "responsive-layout.desktop#home__info--desktop": {
+    "title": "Desktop component",
+    "children": [
+      "link#home__product-page",
+      "slider-layout#home__slider--children",
+      "rich-text#home__section--up",
+      "rich-text#home__section--down",
+      "rich-text#global__categories--title",
+      "flex-layout.row#home__category"
+    ],
+    "props": {
+      "blockClass": "home__responsive"
+    }
+  }
+/*  "rich-text#home__info--desktop": {
+    "props": {
+      "text": "# Resolucion de Escritorio"
+    }
+  }*/
+}

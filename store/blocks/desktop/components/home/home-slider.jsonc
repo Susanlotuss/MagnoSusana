@@ -1,0 +1,56 @@
+{
+    "slider-layout#home__slider--children": {
+        "title": "home--slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "mobile": 2
+            },
+            "infinite": true,
+            "blockClass": "home__slider",
+            "showPaginationDots": "never",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "image#home__slider--one",
+            "image#home__slider--two",
+            "image#home__slider--three"
+        ]
+    },
+    "image#home__slider--one": {
+        "title": "image1-home--slider",
+        "props": {
+            "src": "assets/img/magnoslideM.jpg"
+        //    "min-height": 320
+        //    "maxWidth": 600
+        }
+    },
+    "image#home__slider--two": {
+        "title": "image2-home--slider",
+        "props": {
+            "src": "assets/img/magnoblack.jpg"
+        //    "min-height": 320
+        //    "maxWidth": 600
+        }
+    },
+    "image#home__slider--three": {
+        "title": "image3-home--slider",
+        "props": {
+            "src": "assets/img/magnopink.jpg"
+         //   "min-height": 320
+         //   "maxWidth": 600
+        }
+    },
+    "link#home__product-page": {
+        "title": "slider-button--On",
+        "props": {
+            "displayMode": "button",
+            //"href": "/{slug}/p",
+            "label": "Comprar"
+        }
+    }
+}

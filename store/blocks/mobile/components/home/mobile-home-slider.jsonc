@@ -1,0 +1,47 @@
+{
+   "slider-layout#mobile__slider--children": {
+        "title": "mobile--home-slider",
+        "props": {
+            "itemsPerPage": {
+                "tablet": 2,
+                "mobile": 2
+            },
+            "infinite": true,
+            "blockClass": "mobile__slider",
+            "showPaginationDots": "never",
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "image#mobile__slider--1",
+            "image#mobile__slider--2",
+            "image#mobile__slider--3"
+        ]
+    },
+    "image#mobile__slider--1": {
+        "title": "image1-mobile--slider",
+        "props": {
+            "src": "assets/img/magnoslideM.jpg"
+        //    "min-height": 320
+        //    "maxWidth": 600
+        }
+    },
+    "image#mobile__slider--2": {
+        "title": "image2-mobile--slider",
+        "props": {
+            "src": "assets/img/magnoblack.jpg"
+        //    "min-height": 320
+        //    "maxWidth": 600
+        }
+    },
+    "image#mobile__slider--3": {
+        "title": "image3-mobile--slider",
+        "props": {
+            "src": "assets/img/magnopink.jpg"
+         //   "min-height": 320
+         //   "maxWidth": 600
+        }
+    }
+}

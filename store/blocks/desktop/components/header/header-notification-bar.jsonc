@@ -1,0 +1,11 @@
+{
+  "rich-text#home__top": {
+    "title": "notification-bar--home",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Conoce nuestra cobertura de domicilios en Colombia](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "notification-bar"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.flexRowContent--home__category--one {
+    align-items: baseline;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.stretchChildrenWidth {
+    margin: 4px;
+    background-color: #f3f3f3;
+}
+
+/*.flexRow--home__category--rrrr {
+    flex-direction: row;
+}*/

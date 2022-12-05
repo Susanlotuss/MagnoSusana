@@ -1,0 +1,78 @@
+.container--welcome-text,
+.container--welcome-text2 {
+  background-color: #f3f3f3;
+}
+.container--welcome-text2 {
+    color: #121212BF;
+    letter-spacing: .06rem;
+}
+.paragraph--welcome-text {
+    color: #121212;
+    margin-top: 22px;
+    margin-bottom: 1.7px;
+    letter-spacing: .06rem;
+}
+.paragraph--welcome-text2 {
+    margin-left: 21rem;
+    margin-right: 21rem;
+    line-height: 1.8;
+}
+.paragraph--categorias__favoritas {
+  color: #121212;
+}
+.flexRowContent {
+  display: block;
+}
+.wrapper--categorias__favoritas {
+  margin: .5rem;
+}
+.container--category__text {
+  background-color: #f3f3f3;
+  border-bottom: 8px solid white;
+}
+.link--category__text {
+  color: black;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.container--notification-bar {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+.paragraph--notification-bar {
+  padding: 0;
+  margin: 0;
+}
+.link--notification-bar {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  font-size: 13px;
+  width: 100%;
+  font-weight: 500;
+}
+.image--category__text,
+.image--category__text--mobile,
+.image--category__text2--mobile {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-flex;
+  align-self: center;
+  top: 0.4em;
+  position: relative;
+}
+
+@media screen and (min-width: 751px) {
+  .paragraph--welcome-text {
+    font-size: 24px;
+  }
+  .paragraph--categorias__favoritas {
+    font-size: 24px;
+  }
+  .link--category__text {
+    font-size: 1.1rem;
+    letter-spacing: .06rem;
+    word-break: break-word;
+  }
+}
