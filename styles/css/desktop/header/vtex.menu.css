@@ -52,6 +52,9 @@
     margin: 0;
     padding: 12px;
   }
+  .styledLinkContent:hover {
+    text-decoration: underline;
+  }
 }
 /*@media screen and (max-width: 750px) {
   .styledLinkContent {

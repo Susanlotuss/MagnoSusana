@@ -3,8 +3,11 @@
         "title": "middle-mobile--header",
         "children": [
             "category-menu#megamenu__mobile",
+            "header-spacer",
          //   "drawer#header__mobile--menu",
             "logo#header__top--logo-mobile",
+            "header-spacer",
+            "login#menu__mobile",
             "minicart.v2"
         ],
         "props": {
@@ -243,7 +246,7 @@
     "login#menu__mobile": {
         "title": "mobile-login",
         "props": {
-            "iconLabel": "hola",
+            "iconLabel": " ",
             "emailAndPasswordTitle": "Login",
             "accessCodeTitle": "Access Code Login",
             "emailPlaceHolder": "e-mail",

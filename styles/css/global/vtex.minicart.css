@@ -1,0 +1,16 @@
+.cartIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.openIconContainer {
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 990px) {
+  .cartIcon {
+    width: 21px;
+    height: 21px;
+  }
+}

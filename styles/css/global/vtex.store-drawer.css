@@ -2,11 +2,19 @@
     display: block;
     color: #121212
 }
-:global(.vtex-login-2-x-buttonLink) {
-    background-color: #12121208;
-    padding: 20px;
-}
 
 :global(.vtex-login-2-x-profileIcon) {
-    color: #121212;
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (min-width: 990px) {
+    :global(.vtex-login-2-x-profileIcon) {
+        width: 23px;
+        height: 23px;
+    }
+}
+
+:global(.vtex-login-2-x-container){
+    width: 38px;
 }
