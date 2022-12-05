@@ -4,9 +4,6 @@
 .headerRowContainer--desktop__menus {
   justify-content: center;
 }
-.headerSpacer {
-  flex-grow: 0.4;
-}
 .headerStickyRow--desktop__menus {
   top: 0;
   background-color: white;
@@ -26,5 +23,8 @@
     padding-top: 1.6rem;
     padding-bottom: 1.2rem;
     margin-bottom: 7px;
+  }
+  .headerSpacer {
+    flex-grow: 0.4;
   }
 }

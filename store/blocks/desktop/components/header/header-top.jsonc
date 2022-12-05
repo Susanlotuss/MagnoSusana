@@ -118,7 +118,7 @@
                   "href": "#",
                   "noFollow": false,
                   "tagTitle": "Chocolates",
-                  "text": "Chocolates"
+                  "text": "Chocolates ˅"
                 }
         },
         "blocks": [
@@ -131,7 +131,7 @@
         ],
         "props":{
             "blockClass": "chocolates-container",
-            "onMountBehavior": "open"        
+            "onMountBehavior": "closed"
           }
     },
     "menu#chocolates": {
