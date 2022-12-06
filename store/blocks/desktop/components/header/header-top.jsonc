@@ -5,6 +5,7 @@
             "logo#header__top--logo",
             "menu#web",
             "header-spacer",
+            "search-bar#desktop__header",
             "login#header__desktop",
             "minicart.v2"
         ],
@@ -253,5 +254,13 @@
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile": true
         }
-    }
+    },
+    "search-bar#desktop__header": {
+        "title": "search-bar--desktop",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+          "openAutocompleteOnFocus": true,
+          "maxWidth": 150
+        }
+      }
 }

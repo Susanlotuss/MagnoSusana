@@ -38,7 +38,7 @@
 "rich-text#section__navidad--title": {
   "props": {
     "text": "[Regalos Navidad ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
-    "blockClass": "category__text2--mobile"
+    "blockClass": "category__text3--mobile"
   }
 },
 "flex-layout.row#mobile__category--todo": {
@@ -106,7 +106,7 @@
 "rich-text#section__sin--title": {
   "props": {
     "text": "[Chocolates sin azúcar ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
-    "blockClass": "category__text--mobile"
+    "blockClass": "category__text3--mobile"
   }
 },
 "flex-layout.row#mobile__category--niños": {
@@ -123,7 +123,7 @@
 "rich-text#section__niños--title": {
   "props": {
     "text": "[Chocolates para niños ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
-    "blockClass": "category__text--mobile"
+    "blockClass": "category__text3--mobile"
   }
 },
 "flex-layout.row#mobile__category--unisex": {
@@ -140,7 +140,7 @@
 "rich-text#section__unisex--title": {
   "props": {
     "text": "[Chocolates unisex ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
-    "blockClass": "category__text2--mobile"
+    "blockClass": "category__text3--mobile"
   }
 },
 "flex-layout.row#mobile__category--tortas": {
