@@ -260,7 +260,7 @@
         "blocks": ["autocomplete-result-list.v2"],
         "props": {
           "openAutocompleteOnFocus": true,
-          "maxWidth": 150
+          "maxWidth": 155
         }
       }
 }
