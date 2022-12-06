@@ -21,12 +21,13 @@
           },
               "infinite": true,
              "showNavigationArrows": "desktopOnly",
-             "blockClass": "carousel"
+             "blockClass": "products--carousel-desktop"
            }
   },
   "rich-text#products__button": {
     "props": {
-        "text": "Ver todo"
+        "text": "Ver todo",
+        "blockClass": "products--button-desktop"
     }
   }
 }
