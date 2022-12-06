@@ -8,7 +8,9 @@
       "rich-text#home__section--down",
       "rich-text#global__categories--title",
       "flex-layout.row#home__category",
-      "rich-text#grid__button"
+      "rich-text#grid__button",
+      "list-context.product-list#home__desktop--products",
+      "rich-text#products__button"
     ],
     "props": {
       "blockClass": "home__responsive"
