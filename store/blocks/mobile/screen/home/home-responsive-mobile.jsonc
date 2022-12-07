@@ -9,7 +9,10 @@
       "flex-layout.row#mobile__linktext",
   //    "rich-text#global__categories--title",
   //    "rich-text#grid__button--mobile",
-      "slider-layout#mobile__categories"
+      "slider-layout#mobile__categories",
+      "list-context.product-list#home__desktop--products",
+      "rich-text#products__button",
+      "flex-layout.row#home__artesanal"
     //  "flex-layout.row#mobile__category"
    //   "flex-layout.row#mobile__categories"
       //   "slider-layout#mobile__category"

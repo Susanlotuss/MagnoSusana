@@ -5,7 +5,11 @@
     box-sizing: border-box;
     position: relative;
 }
-
+.flexRowContent--home__artesanal--section :global(.vtex-flex-layout-0-x-flexColChild) {
+    background-color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+}
 .stretchChildrenWidth {
     margin: 4px;
     background-color: #f3f3f3;

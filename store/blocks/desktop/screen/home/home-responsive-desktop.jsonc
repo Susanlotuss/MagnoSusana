@@ -10,7 +10,9 @@
       "flex-layout.row#home__category",
       "rich-text#grid__button",
       "list-context.product-list#home__desktop--products",
-      "rich-text#products__button"
+      "rich-text#products__button",
+      "flex-layout.row#home__artesanal",
+      "flex-layout.row#home__media"
     ],
     "props": {
       "blockClass": "home__responsive"

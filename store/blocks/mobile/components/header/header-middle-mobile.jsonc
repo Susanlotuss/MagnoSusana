@@ -7,6 +7,7 @@
          //   "drawer#header__mobile--menu",
             "logo#header__top--logo-mobile",
             "header-spacer",
+            "modal-trigger#search__header",
             "login#menu__mobile",
             "minicart.v2"
         ],
