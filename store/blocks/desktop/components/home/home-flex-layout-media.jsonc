@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#home__media": {
+        "title": "home-category--media",
+        "children": ["flex-layout.col#home__media--imageText"],
+        "props": {
+          "blockClass": "home__media--section",
+          "fullWidth": false,
+          "horizontalAlign": "center"
+        }
+      },
+      "flex-layout.col#home__media--imageText": {
+        "children": [
+          "rich-text#home__media--title",
+          "flex-layout.row#home__media--imageText2"
+        ]
+      },
+      "flex-layout.row#home__media--imageText2": {
+        "children": [
+            "image#home__media--image1",
+            "image#home__media--image1",
+            "image#home__media--image1",
+            "image#home__media--image1"
+     //       "flex-layout.row#home__media--image"
+          ]
+      },
+   /*   "flex-layout.row#home__media--image": {
+        "children": [
+            "image#home__artesanal--image",
+            "image#home__artesanal--image",
+            "image#home__artesanal--image"
+      //      "flex-layout.row#home__media--imageTextt2"
+          ]
+      },
+    /*  "flex-layout.row#home__media--imageTextt2": {
+        "children": [
+            "image#home__artesanal--image"
+          ]
+      },*/
+      "image#home__media--image1": {
+        "title": "image-media--desktop",
+        "props": {
+          "blockClass": "media__img",
+          "src": "assets/img/magnomedia1.jpg",
+          "link": {
+            "url": "/"
+          }
+        }
+      },
+      "rich-text#home__media--title": {
+        "props": {
+          "text": "Síguenos en Instagram y conoce más de nuestros chocolates decorados, perfectos para regalar o disfrutar <br> @magnochocolates",
+          "blockClass": "media__text"
+        }
+      }
+}
