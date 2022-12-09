@@ -54,6 +54,7 @@
   }
   .styledLinkContent:hover {
     text-decoration: underline;
+    text-underline-offset: 0.3rem;
   }
 }
 /*@media screen and (max-width: 750px) {

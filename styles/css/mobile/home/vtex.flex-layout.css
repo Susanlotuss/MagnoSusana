@@ -1,0 +1,9 @@
+@media screen and (max-width: 750px) {
+    .flexRowContent {
+        display: inline-flex;
+    }
+    .stretchChildrenWidth {
+        margin: 0;
+        width: 150%;
+    }
+}

@@ -5,6 +5,8 @@
             "logo#header__top--logo",
             "menu#web",
             "header-spacer",
+            "modal-trigger#search__header",
+    //        "search-bar#desktop__header",
             "login#header__desktop",
             "minicart.v2"
         ],
@@ -253,5 +255,30 @@
             "showPasswordVerificationIntoTooltip": true,
             "showIconProfile": true
         }
-    }
+    },
+    "modal-trigger#search__header": {
+        "children": [
+            "rich-text#search",
+            "modal-layout#desktop__header"
+        ]
+    },
+    "search-bar#desktop__header": {
+        "title": "search-bar--desktop",
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+          "openAutocompleteOnFocus": true,
+          "maxWidth": 155
+        }
+      },
+      "modal-layout#desktop__header": {
+        "children": [
+            "search-bar#desktop__header"
+        ]
+      },
+      "rich-text#search": {
+        "props": {
+            "text": "![search](assets/img/search_magnifier.png)",
+            "blockClass": "search-icon"
+        }
+      }
 }

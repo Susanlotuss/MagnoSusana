@@ -6,8 +6,13 @@
       "slider-layout#mobile__slider--children",
       "rich-text#home__section--up",
       "rich-text#home__section--down",
-      "rich-text#global__categories--title",
-      "slider-layout#mobile__categories"
+      "flex-layout.row#mobile__linktext",
+  //    "rich-text#global__categories--title",
+  //    "rich-text#grid__button--mobile",
+      "slider-layout#mobile__categories",
+      "list-context.product-list#home__desktop--products",
+      "rich-text#products__button",
+      "flex-layout.row#home__artesanal"
     //  "flex-layout.row#mobile__category"
    //   "flex-layout.row#mobile__categories"
       //   "slider-layout#mobile__category"
@@ -20,5 +25,7 @@
     "props": {
       "text": "# Resolucion de Mobile"
     }
+    "rich-text#global__categories--title",
+      "rich-text#grid__button--mobile"
   }*/
 }

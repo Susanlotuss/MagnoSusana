@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#home__artesanal": {
+    "title": "home-category--artesanal",
+    "children": ["flex-layout.col#home__artesanal--imageText"],
+    "props": {
+      "blockClass": "home__artesanal--section",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#home__artesanal--imageText": {
+    "children": [
+      "rich-text#home__artesanal--title",
+      "image#home__artesanal--image"
+      //  "image#home__category4--desktop"
+    ]
+  },
+  "image#home__artesanal--image": {
+    "title": "image-artesanal--desktop",
+    "props": {
+      "blockClass": "artesanal__img",
+      "src": "assets/img/magnoartesanal1.jpg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home__artesanal--title": {
+    "props": {
+      "text": "Conoce el proceso de nuestras cajas de chocolates artesanales, elaboradas a partir de cacao 100% real.",
+      "blockClass": "artesanal__text"
+    }
+  }
+}

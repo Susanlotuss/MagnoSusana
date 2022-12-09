@@ -1,0 +1,45 @@
+{
+  "list-context.product-list#home__desktop--products": {
+    "blocks": ["product-summary.shelf#desktop__products"],
+    "children": ["rich-text#products__title", "slider-layout#desktop-products"],
+      "props": {
+        "blockclass": "desktop__shelf"
+      }
+  },
+  "rich-text#products__title": {
+    "props": {
+      "text": "Populares",
+      "blockClass": "products--title-desktop"
+    }
+  },
+  "product-summary.shelf#desktop__products": {
+    "children": [
+      //    "stack-layout#prodsum",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector"
+      //         "product-summary-buy-button"
+    ]
+  },
+  "slider-layout#desktop-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "products--carousel-desktop",
+      "showPaginationDots": "mobileOnly",
+      "navigationStep": "page",
+      "fullWidth": false
+    }
+  },
+  "rich-text#products__button": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "blockClass": "products--button-desktop"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#mobile__linktext": {
+        "children": [
+          "rich-text#global__categories--title",
+          "rich-text#grid__button--mobile"
+        ]
+      }
+}

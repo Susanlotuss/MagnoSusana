@@ -54,13 +54,85 @@
 }
 .image--category__text,
 .image--category__text--mobile,
-.image--category__text2--mobile {
+.image--category__text2--mobile,
+.image--category__text3--mobile {
   width: 1.5em;
   height: 1.5em;
   display: inline-flex;
   align-self: center;
   top: 0.4em;
   position: relative;
+}
+.link--grid--button {
+  font-size: 15px;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+  background-color: #5EDAD1;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+.container--grid--button {
+  padding-bottom: 40px;
+}
+.link--products--button-desktop {
+  font-size: 15px;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+.paragraph--products--title-desktop {
+  font-size: 24px;
+  color: #121212;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+.container--products--title-desktop {
+  padding-top: 28px;
+  background-color: #f3f3f3;
+}
+.container--products--button-desktop {
+  background-color: #f3f3f3;
+  padding-bottom: 36px;
+}
+.container--products--button-desktop {
+  justify-content: center;
+}
+.paragraph--artesanal__text {
+  font-size: 24px;
+  color: #121212;
+  letter-spacing: 1px;
+}
+.paragraph--media__text {
+  font-size: 20px;
+  text-align: center;
+  color: #121212;
+  letter-spacing: 1px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  margin-bottom: 30px;
+}
+.container--media__text {
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+.container--artesanal__text {
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+.wrapper--artesanal__text {
+  max-width: 75rem;
+}
+.image--search-icon {
+  width: 21px;
+  padding-top: 0.4rem;
 }
 
 @media screen and (min-width: 751px) {
@@ -74,5 +146,15 @@
     font-size: 1.1rem;
     letter-spacing: .06rem;
     word-break: break-word;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .paragraph--products--title-desktop {
+    margin-left: 5.2em;
+  }
+}
+@media screen and (min-width: 1661px) {
+  .paragraph--products--title-desktop {
+    margin-left: 12.8em;
   }
 }

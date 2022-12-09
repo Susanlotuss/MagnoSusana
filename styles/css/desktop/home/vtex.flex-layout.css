@@ -5,12 +5,20 @@
     box-sizing: border-box;
     position: relative;
 }
-
+.flexRowContent--home__artesanal--section :global(.vtex-flex-layout-0-x-flexColChild) {
+    background-color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+}
 .stretchChildrenWidth {
     margin: 4px;
     background-color: #f3f3f3;
 }
-
+.flexRowContent--home__media--section :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 79.3% !important;
+    background-color: #FFFFFF;
+    margin: 1.5px;
+}
 /*.flexRow--home__category--rrrr {
     flex-direction: row;
 }*/
