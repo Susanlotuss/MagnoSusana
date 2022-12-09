@@ -1,0 +1,9 @@
+.flexRowContent--footer__container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    background-color: #FFFFFF;
+}
+.flexRow--footer__container {
+    margin-top: 24px;
+}
+.flexRow--footer__container :global(.vtex-store-components-3-x-container) {
+    padding-left: 10rem;
+}

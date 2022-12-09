@@ -1,0 +1,20 @@
+.paragraph--rich-text__footer__container--creaciones-title,
+.paragraph--rich-text__footer__container--servicios-title,
+.paragraph--rich-text__footer__container--empresa-title {
+    font-size: 18px;
+    color: #121212;
+}
+.paragraph--rich-text__footer__container--options {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link--rich-text__footer__container--options {
+    color: #121212BF;
+    text-decoration: none;
+}
+.paragraph--rich-text__footer__container--options:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
