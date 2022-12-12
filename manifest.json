@@ -12,6 +12,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.store-newsletter": "1.x",
     "vtex.search": "2.x",
     "vtex.store-icons": "0.x",
     "vtex.category-menu": "2.x",
