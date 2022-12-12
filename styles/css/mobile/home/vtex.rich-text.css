@@ -29,6 +29,7 @@
     .paragraph--categorias__favoritas {
       font-size: 20px;
       margin: 0;
+      letter-spacing: 1px;
     }
     .container--categorias__favoritas,
     .container--grid--button__mobile {
@@ -69,5 +70,10 @@
       text-underline-offset: 0.3rem;
       letter-spacing: 1px;
     }
-   
+   .container--products--title-desktop {
+    margin-top: 3rem;
+   }
+   .container--categorias__favoritas {
+    min-width: 15rem;
+   }
   }

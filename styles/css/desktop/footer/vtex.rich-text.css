@@ -17,4 +17,13 @@
 .paragraph--rich-text__footer__container--options:hover {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
-  }
+}
+.paragraph--news-title {
+    font-size: 18px;
+    color: #121212;
+    letter-spacing: 1px;
+}
+.container--footer-copyright :global(.vtex-rich-text-0-x-paragraph) {
+    font-size: 12px;
+    color: #121212BF;
+}

@@ -10,7 +10,8 @@
       "showPaginationDots":"always",
       "showNavigationArrows": "never",
       "infinite": true,
-      "usePagination" : true
+      "usePagination" : true,
+      "blockClass": "mobile__slider--categories"
      },
     "children": [
       "flex-layout.row#mobile__category--navidad",
