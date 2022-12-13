@@ -1,0 +1,27 @@
+.imageNormal {
+    min-height: 18rem;
+    max-height: 16rem;
+}
+@media screen and (max-width: 750px) {
+    .imageNormal {
+        min-height: 11rem;
+        max-height: 11rem;
+    }
+    .brandName {
+        font-size: 12px;
+        color: black;
+    }
+    .price_sellingPrice {
+        font-size: 15px;
+        color: black;
+    }
+    .price_installmentContainer {
+        font-size: 10px;
+    }
+    .nameContainer {
+        padding-bottom: 0;
+    }
+    .element {
+        padding-bottom: 5rem;
+    }
+}

@@ -5,6 +5,10 @@
   .stretchChildrenWidth {
     margin: 0;
   }
+  .flexRowContent--home__media--section,
+  .flexRow--home__artesanal--section {
+    padding: 15px;
+  }
 }
 .flexRowContent--home__media--section
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {

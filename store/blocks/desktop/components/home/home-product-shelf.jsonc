@@ -19,8 +19,9 @@
     "children": [
       //    "stack-layout#prodsum",
       "product-summary-image",
-      "product-summary-price",
-      "product-summary-sku-selector"
+      "product-summary-name",
+      "product-summary-price"
+  //    "product-summary-sku-selector"
       //         "product-summary-buy-button"
     ]
   },

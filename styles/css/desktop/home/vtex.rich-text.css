@@ -97,12 +97,8 @@
 .container--products--title-desktop {
   padding-top: 28px;
   background-color: #f3f3f3;
-}
-.container--products--button-desktop {
   background-color: #f3f3f3;
   padding-bottom: 36px;
-}
-.container--products--button-desktop {
   justify-content: center;
 }
 .paragraph--artesanal__text {
@@ -134,7 +130,6 @@
   width: 21px;
   padding-top: 0.4rem;
 }
-
 @media screen and (min-width: 751px) {
   .paragraph--welcome-text {
     font-size: 24px;
@@ -147,6 +142,21 @@
     letter-spacing: .06rem;
     word-break: break-word;
   }
+  .container--products--button-desktop {
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding-bottom: 2rem;
+  }
+  .container--shelf__title {
+    font-size: 24px;
+    background-color: #f3f3f3;
+    justify-content: left;
+
+  }
+  .paragraph--shelf__title {
+    color: black;
+    margin-left: 100%;
+  }
 }
 @media screen and (max-width: 1600px) {
   .paragraph--products--title-desktop {
@@ -156,5 +166,9 @@
 @media screen and (min-width: 1661px) {
   .paragraph--products--title-desktop {
     margin-left: 12.8em;
+  }
+  .paragraph--shelf__title {
+    color: black;
+    margin-left: 150%;
   }
 }

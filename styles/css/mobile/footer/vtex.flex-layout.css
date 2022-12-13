@@ -1,0 +1,16 @@
+@media screen and (max-width: 750px) {
+    .flexRow--footer__container {
+        margin: 0;
+    }
+    .flexRow--footer__container :global(.vtex-store-components-3-x-container) {
+        padding-left: 0;
+      }
+      .flexRow--footer__container--letter {
+        margin: 0;
+        padding-right: 15px;
+      }
+      .flexRow--footer__container--letter :global(.vtex-rich-text-0-x-paragraph--news-title) {
+        align-items: center;
+        justify-content: center;
+      }
+}

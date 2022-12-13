@@ -1,3 +1,17 @@
 .sliderTrackContainer--mobile__slider--categories {
     margin-bottom: 2rem;
 }
+.slideChildrenContainer--mobile__slider--categories :global(.vtex-store-components-3-x-container) {
+    padding: 2px;
+}
+.sliderLayoutContainer--mobile__slider--categories {
+    margin-bottom: 4rem;
+}
+@media screen and (max-width: 750px) {
+    .sliderLayoutContainer--products--carousel-desktop {
+        padding: 0 !important;
+    }
+    .paginationDotsContainer--products--carousel-desktop {
+        margin-bottom: 2rem;
+    }
+}
