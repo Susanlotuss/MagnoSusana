@@ -9,6 +9,7 @@
     }
   },
   "flex-layout.col#home__artesanal--imageText": {
+    "title": "artesanal-cols",
     "children": [
       "rich-text#home__artesanal--title",
       "image#home__artesanal--image"
@@ -26,6 +27,7 @@
     }
   },
   "rich-text#home__artesanal--title": {
+    "title": "text-artesanal",
     "props": {
       "text": "Conoce el proceso de nuestras cajas de chocolates artesanales, elaboradas a partir de cacao 100% real.",
       "blockClass": "artesanal__text"

@@ -10,7 +10,7 @@
         }
     },*/
     "logo#header__top--logo-mobile": {
-        "title": "Logo",
+        "title": "Logo-mobile",
         "props": {
             "blockClass": "header__top--logo-mobile",
             "url": "assets/img/magnoLogo.avif",

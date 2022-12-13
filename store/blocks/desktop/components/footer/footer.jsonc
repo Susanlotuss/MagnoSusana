@@ -1,5 +1,6 @@
 {
   "footer-layout.desktop": {
+    "title": "footer-rows",
     "children": [
       "flex-layout.row#footer-desktop--all",
       "flex-layout.row#footer-desktop--newsletter",
@@ -10,6 +11,7 @@
     }
   },
   "flex-layout.row#footer-desktop--all": {
+    "title": "footer-cols",
     "children": [
       "flex-layout.col#footer-desktop--creaciones",
       "flex-layout.col#footer-desktop--servicios",
@@ -49,6 +51,7 @@
     }
   },*/
   "rich-text#footer__container--creaciones-one": {
+    "title": "footer-containerOne--creaciones",
     "props": {
       "text": "Nuestras Creaciones",
       "textPosition": "LEFT",
@@ -56,6 +59,7 @@
     }
   },
   "rich-text#footer__container--creaciones-two": {
+    "title": "footer-containerTwo--creaciones",
     "props": {
       "text": "[Chocolates para regalar a pareja](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -63,6 +67,7 @@
     }
   },
   "rich-text#footer__container--creaciones-three": {
+    "title": "footer-containerThree--creaciones",
     "props": {
       "text": "[Chocolates para regalar a un hombre](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -70,6 +75,7 @@
     }
   },
   "rich-text#footer__container--creaciones-four": {
+    "title": "footer-containerFour--creaciones",
     "props": {
       "text": "[Chocolates para regalar a una mujer](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -77,6 +83,7 @@
     }
   },
   "rich-text#footer__container--creaciones-five": {
+    "title": "footer-containerFive--creaciones",
     "props": {
       "text": "[Regalos amor y amistad](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -84,6 +91,7 @@
     }
   },
   "rich-text#footer__container--creaciones-six": {
+    "title": "footer-containerSix--creaciones",
     "props": {
       "text": "[Chocolates para regalar en navidad](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -118,6 +126,7 @@
     }
   },*/
   "rich-text#footer__container--servicios-one": {
+    "title": "footer-containerOne--servicios",
     "props": {
       "text": "Nuestros Servicios",
       "textPosition": "LEFT",
@@ -125,6 +134,7 @@
     }
   },
   "rich-text#footer__container--servicios-two": {
+    "title": "footer-containerTwo--servicios",
     "props": {
       "text": "[Chocolates corporativos](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -132,6 +142,7 @@
     }
   },
   "rich-text#footer__container--servicios-three": {
+    "title": "footer-containerThree--servicios",
     "props": {
       "text": "[Chocolates a domicilio Bogotá](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -139,6 +150,7 @@
     }
   },
   "rich-text#footer__container--servicios-four": {
+    "title": "footer-containerFour--servicios",
     "props": {
       "text": "[Chocolates a domicilio Medellín](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -146,6 +158,7 @@
     }
   },
   "rich-text#footer__container--servicios-five": {
+    "title": "footer-containerFive--servicios",
     "props": {
       "text": "[Chocolates a domicilio Colombia](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -184,6 +197,7 @@
     }
   },*/
   "rich-text#footer__container--empresa-one": {
+    "title": "footer-containerOne--empresa",
     "props": {
       "text": "Nuestra Empresa",
       "textPosition": "LEFT",
@@ -191,6 +205,7 @@
     }
   },
   "rich-text#footer__container--empresa-two": {
+    "title": "footer-containerTwo--empresa",
     "props": {
       "text": "[Contáctanos](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -198,6 +213,7 @@
     }
   },
   "rich-text#footer__container--empresa-three": {
+    "title": "footer-containerThree--empresa",
     "props": {
       "text": "[Preguntas Frecuentes](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -205,6 +221,7 @@
     }
   },
   "rich-text#footer__container--empresa-four": {
+    "title": "footer-containerFour--empresa",
     "props": {
       "text": "[Política de privacidad](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -212,6 +229,7 @@
     }
   },
   "rich-text#footer__container--empresa-five": {
+    "title": "footer-containerFive--empresa",
     "props": {
       "text": "[Términos & condiciones](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -219,6 +237,7 @@
     }
   },
   "rich-text#footer__container--empresa-six": {
+    "title": "footer-containerSix--empresa",
     "props": {
       "text": "[Política de reembolso](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -226,6 +245,7 @@
     }
   },
   "rich-text#footer__container--empresa-seven": {
+    "title": "footer-containerSeven--empresa",
     "props": {
       "text": "[Wallpapers](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
       "textPosition": "LEFT",
@@ -234,6 +254,7 @@
   },
   /*row newsletter y social*/
   "flex-layout.row#footer-desktop--newsletter": {
+    "title": "footer-newsletter-desktop",
     "children": [
       "flex-layout.col#footer-desktop--newsletters",
       "flex-layout.col#footer-desktop--socialnetwork"
@@ -249,6 +270,7 @@
     //      "blockClass": "footer__container--news"
   },
   "newsletter-form#footer__desktop--newsletter": {
+    "title": "footer-newsletter--form",
     "children": [
       "rich-text#footer__news--title",
       "newsletter-input-email",
@@ -256,16 +278,19 @@
     ]
   },
   "newsletter-input-email": {
+    "title": "footer-newsletter--input",
     "props": {
       "placeholderText": "Correo electrónico"
     }
   },
   "newsletter-submit": {
+    "title": "footer-newsletter--submit",
     "props": {
       "submitButtonLabel": "→"
     }
   },
   "rich-text#footer__news--title": {
+    "title": "footer-newsletter--title",
     "props": {
       "text": "Suscríbete en nuestro newsletter para recibir promociones y lanzamientos:",
       "blockClass": "news-title"
@@ -276,6 +301,7 @@
     "children": ["social-networks"]
   },
   "social-networks": {
+    "title": "footer-network",
     "props": {
       "socialNetworks": [
         { "url": "https://facebook.com/foo", "name": "Facebook" },
@@ -288,21 +314,25 @@
     }
   },
   "flex-layout.row#footer-desktop--payments": {
+    "title": "footer-payments",
     "children": ["flex-layout.col#footer-desktop--payment"],
     "props": {
       "blockClass": "footer__container--payments"
     }
   },
   "flex-layout.col#footer-desktop--payment": {
+    "title": "footer-payment-cols",
     "children": ["accepted-payment-methods", "rich-text#footer__copyright"]
   },
   "accepted-payment-methods": {
+    "title": "footer-payment--methods",
     "props": {
       "paymentMethods": ["mastercard", "visa", "diners club"],
       "showInColor": true
     }
   },
   "rich-text#footer__copyright": {
+    "title": "footer-copyright",
     "props": {
       "text": "© 2022, Magno chocolates",
       "blockClass": "footer-copyright"

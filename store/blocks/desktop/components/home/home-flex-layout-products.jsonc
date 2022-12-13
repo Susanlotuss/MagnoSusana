@@ -40,6 +40,7 @@
 },*/
 
 "flex-layout.col#home__category--imageText2": {
+  "title": "home-category--col1",
   "children": [
     "image#home__category1--desktop",
     "rich-text#section__one1--title",
@@ -51,24 +52,28 @@
   ]
 },
 "rich-text#section__one1--title": {
+  "title": "home-category--todo",
   "props": {
     "text": "[Todo ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one2--title1": {
+  "title": "home-category--sin",
   "props": {
     "text": "[Chocolates sin azúcar ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one3--title2": {
+  "title": "home-category--tortas",
   "props": {
     "text": "[Tortas ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "flex-layout.col#home__category--imageText": {
+  "title": "home-category--col2",
   "children": [
     "image#home__category5--desktop",
     "rich-text#section__one--title",
@@ -80,24 +85,28 @@
   ]
 },
 "rich-text#section__one--title": {
+  "title": "home-category--navidad",
   "props": {
     "text": "[Regalos Navidad ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one--title1": {
+  "title": "home-category--hombre",
   "props": {
     "text": "[Regalos y chocolates para hombre ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one--title2": {
+  "title": "home-category--unisex",
   "props": {
     "text": "[Chocolates unisex ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "flex-layout.col#home__category--imageText3": {
+  "title": "home-category--col3",
   "children": [
     "image#home__category2--desktop",
     "rich-text#section__one11--title",
@@ -109,12 +118,14 @@
   ]
 },
 "rich-text#section__one11--title": {
+  "title": "home-category--mujer",
   "props": {
     "text": "[Regalos y chocolates para mujer ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"
   }
 },
 "rich-text#section__one22--title1": {
+  "title": "home-category--niños",
   "props": {
     "text": "[Chocolates para niños ![arrow-right](assets/img/icon-right-arrow.svg)](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
     "blockClass": "category__text"

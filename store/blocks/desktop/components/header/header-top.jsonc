@@ -40,6 +40,7 @@
         }
     },
     "menu-item#tortas": {
+        "title": "item-tortas",
         "props": {
             "id": "menu-item-tortas",
                 "type": "custom",
@@ -54,6 +55,7 @@
         }
     },
     "menu-item#corporativos": {
+        "title": "item-corporativo",
         "props": {
             "id": "menu-item-corporativos",
                 "type": "custom",
@@ -68,6 +70,7 @@
         }
     },
     "menu-item#preguntas": {
+        "title": "item-preguntas",
         "props": {
             "id": "menu-item-preguntas",
                 "type": "custom",
@@ -82,6 +85,7 @@
         }
     },
     "menu-item#blog": {
+        "title": "item-blog",
         "props": {
             "id": "menu-item-blog",
                 "type": "custom",
@@ -96,6 +100,7 @@
         }
     },
     "menu-item#contactanos": {
+        "title": "item-contactanos",
         "props": {
             "id": "menu-item-contactanos",
                 "type": "custom",
@@ -110,6 +115,7 @@
         }
     },
     "menu-item#chocolates": {
+        "title": "item-chocolates",
         "props": {
             "id": "category-desktop--chocolates",
                 "type": "custom",
@@ -128,6 +134,7 @@
         ]
     },
     "submenu#chocolates": {
+        "title": "submenu-chocolates",
         "children": [
             "menu#chocolates"
         ],
@@ -137,6 +144,7 @@
           }
     },
     "menu#chocolates": {
+        "title": "menu-chocolates",
         "children": [
             "menu-item#category-chocolates--mujer",
             "menu-item#category-chocolates--hombre",
@@ -151,6 +159,7 @@
         }
     },
     "menu-item#category-chocolates--mujer": {
+        "title": "item-mujer",
         "props": {
             "id": "category-chocolates1",
             "type":"custom",
@@ -164,6 +173,7 @@
         }
     },
     "menu-item#category-chocolates--hombre": {
+        "title": "item-hombre",
         "props": {
             "id": "category-chocolates2",
             "type":"custom",
@@ -177,6 +187,7 @@
         }
     },
     "menu-item#category-chocolates--sin": {
+        "title": "item-sin",
         "props": {
             "id": "category-chocolates3",
             "type":"custom",
@@ -190,6 +201,7 @@
         }
     },
     "menu-item#category-chocolates--unisex": {
+        "title": "item-unisex",
         "props": {
             "id": "category-chocolates4",
             "type":"custom",
@@ -203,6 +215,7 @@
         }
     },
     "menu-item#category-chocolates--todo": {
+        "title": "item-todo",
         "props": {
             "id": "category-chocolates5",
             "type":"custom",
@@ -216,6 +229,7 @@
         }
     },
     "menu-item#category-chocolates--Regalos": {
+        "title": "item-regalos",
         "props": {
             "id": "category-chocolates6",
             "type":"custom",
@@ -229,17 +243,20 @@
         }
     },
     "modal-trigger#header__top--login": {
+        "title": "trigger-login",
         "children": [
             "rich-text#header__top--login",
             "modal-layout#header__top--login"
         ]
     },
     "rich-text#header__top--login": {
+        "title": "rich-login",
         "props": {
             "text": "login"
         }
     },
     "modal-layout#header__top--login": {
+        "title": "layout-login",
         "children": [
             "login-content"
         ]
@@ -257,6 +274,7 @@
         }
     },
     "modal-trigger#search__header": {
+        "title": "modal-search",
         "children": [
             "rich-text#search",
             "modal-layout#desktop__header"
@@ -271,11 +289,13 @@
         }
       },
       "modal-layout#desktop__header": {
+        "title": "layout-header",
         "children": [
             "search-bar#desktop__header"
         ]
       },
       "rich-text#search": {
+        "title": "rich-search",
         "props": {
             "text": "![search](assets/img/search_magnifier.png)",
             "blockClass": "search-icon"
