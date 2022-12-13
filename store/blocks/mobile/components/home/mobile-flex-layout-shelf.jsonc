@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#mobile__linktext--shelf": {
+    "title": "link-text__mobile",
+    "children": [
+      "rich-text#products__title",
+      "rich-text#shelf__button--mobile"
+    ],
+    "props": {
+      "blockclass": "shelf-mobile--imageText"
+    }
+  },
+  "rich-text#products__title": {
+    "title": "home-product__shelf--title",
+    "props": {
+      "text": "Populares",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "shelf__title"
+    }
+  },
+  "rich-text#shelf__button--mobile": {
+    "title": "shelf--button__mobile",
+    "props": {
+      "textPosition": "CENTER",
+      "text": "[Ver todo](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
+      "blockClass": "shelf--button__mobile"
+    }
+  }
+}

@@ -28,7 +28,14 @@
     margin-top: 24px;
 }
 .flexRowContent--footer__container--payments :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    margin-top: 24px;
+    margin-top: 0;
+}
+.flexColChild--footer__container--pay {
+  justify-content: center;
+  display: flex;
+}
+.flexRowContent--footer__container--payments {
+  margin-top: 3rem;
 }
 
 @mEdia screen and (max-width: 1600px) {

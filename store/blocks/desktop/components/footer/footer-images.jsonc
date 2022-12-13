@@ -1,0 +1,11 @@
+{
+  "image#footer__container--payments-img1": {
+    "title": "image1-payments--desktop",
+    "props": {
+      "src": "assets/img/payu.avif",
+      "link": {
+        "url": "/"
+      }
+    }
+  }
+}

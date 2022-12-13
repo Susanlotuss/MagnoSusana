@@ -1,0 +1,13 @@
+{
+    "footer-layout.mobile": {
+        "title": "mobile-footer",
+      "children": [
+        "flex-layout.row#footer-mobile--all",
+        "flex-layout.row#footer-mobile--newsletter",
+        "flex-layout.row#footer-desktop--payments"
+      ],
+      "props":{
+        "blockClass": "footer__container--mobile"
+      }
+    }
+  } 

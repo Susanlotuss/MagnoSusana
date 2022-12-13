@@ -322,13 +322,25 @@
   },
   "flex-layout.col#footer-desktop--payment": {
     "title": "footer-payment-cols",
-    "children": ["accepted-payment-methods", "rich-text#footer__copyright"]
+    "children": ["accepted-payment-methods", "flex-layout.row#desktop-footer__pagos", "rich-text#footer__copyright"],
+    "props": {
+      "blockClass": "footer__container--pay"
+    }
   },
   "accepted-payment-methods": {
     "title": "footer-payment--methods",
     "props": {
       "paymentMethods": ["mastercard", "visa", "diners club"],
       "showInColor": true
+    }
+  },
+  "flex-layout.row#desktop-footer__pagos": {
+    "title": "pagos-footer",
+    "children": [
+      "image#footer__container--payments-img1"
+    ],
+    "props": {
+      "blockClass": "footer__container--pagos"
     }
   },
   "rich-text#footer__copyright": {
