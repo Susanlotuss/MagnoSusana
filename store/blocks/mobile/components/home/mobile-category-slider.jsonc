@@ -4,7 +4,7 @@
     "props":{
       "itemsPerPage": {
           "desktop": 1,
-          "tablet": 1,
+          "tablet": 2,
           "mobile": 2
       },
       "showPaginationDots":"always",

@@ -256,8 +256,7 @@
   "flex-layout.row#footer-desktop--newsletter": {
     "title": "footer-newsletter-desktop",
     "children": [
-      "flex-layout.col#footer-desktop--newsletters",
-      "flex-layout.col#footer-desktop--socialnetwork"
+      "flex-layout.col#footer-desktop--newsletters"
     ],
     "props": {
       "blockClass": "footer__container--letter"

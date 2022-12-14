@@ -1,5 +1,5 @@
 {
-  "responsive-layout.mobile#home__info--mobile": {
+  "responsive-layout.phone#home__info--mobile": {
     "title": "Mobile component",
     "children": [
       "link#home__product-page",

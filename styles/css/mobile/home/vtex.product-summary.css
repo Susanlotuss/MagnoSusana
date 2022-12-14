@@ -2,7 +2,7 @@
     min-height: 18rem;
     max-height: 16rem;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1025px) {
     .imageNormal {
         min-height: 11rem;
         max-height: 11rem;

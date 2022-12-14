@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1025px) {
     .link--rich-text__footer__container--options {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -14,5 +14,8 @@
     .paragraph--rich-text__footer__container--servicios-title,
     .paragraph--rich-text__footer__container--empresa-title {
         padding-top: 2rem;
+    }
+    .paragraph--news-title {
+        font-size: 16px;
     }
 }

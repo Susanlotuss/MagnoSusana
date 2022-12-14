@@ -13,7 +13,7 @@
     height: 21px;
   }
 }
-@media screen and (max-width: 751px) {
+@media screen and (max-width: 1025px) {
   .openIconContainer {
     padding-left: 0px;
   }

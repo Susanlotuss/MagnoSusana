@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1025px) {
     .flexRow--footer__container {
         margin: 0;
     }
@@ -8,9 +8,22 @@
       .flexRow--footer__container--letter {
         margin: 0;
         padding-right: 15px;
+        padding-left: 2rem;
       }
       .flexRow--footer__container--letter :global(.vtex-rich-text-0-x-paragraph--news-title) {
         align-items: center;
         justify-content: center;
+      }
+      .flexRow--footer__container--mobile {
+        padding-left: 2rem;
+      }
+      .flexCol--footer__container--empresa,
+      .flexCol--footer__container--creaciones,
+      .flexCol--footer__container--servicios {
+        background-color: white;
+      }
+      .vtex-store-newsletter-1-x-emailInputContainer :global(.vtex-input) {
+        justify-content: center;
+        display: flex;
       }
 }
