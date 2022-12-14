@@ -38,7 +38,7 @@
   margin-top: 3rem;
 }
 
-@mEdia screen and (max-width: 1600px) {
+@mEdia screen and (min-width: 1600px) {
   .flexRow--footer__container--letter {
     margin-left: 9.5rem;
     margin-right: 9rem;

@@ -7,7 +7,7 @@
 .sliderLayoutContainer--mobile__slider--categories {
     margin-bottom: 4rem;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1025px) {
     .sliderLayoutContainer--products--carousel-desktop {
         padding: 0 !important;
     }
