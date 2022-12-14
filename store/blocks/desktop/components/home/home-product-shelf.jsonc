@@ -2,12 +2,12 @@
   "list-context.product-list#home__desktop--products": {
     "title": "home-product--shelf",
     "blocks": ["product-summary.shelf#desktop__products"],
-    "children": ["rich-text#products__title", "slider-layout#desktop-products"],
+    "children": ["rich-text#products__titles", "slider-layout#desktop-products"],
       "props": {
         "blockclass": "desktop__shelf"
       }
   },
-  "rich-text#products__title": {
+  "rich-text#products__titles": {
     "title": "home-product__shelf--title",
     "props": {
       "text": "Populares",
@@ -21,8 +21,8 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price"
-  //    "product-summary-sku-selector"
-      //         "product-summary-buy-button"
+    //  "product-summary-sku-selector",
+    //   "product-summary-buy-button"
     ]
   },
   "slider-layout#desktop-products": {
