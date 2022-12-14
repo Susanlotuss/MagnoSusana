@@ -1,0 +1,14 @@
+.backdropContainer :global(.vtex-modal-layout-0-x-backdrop) {
+    background-color: #12121280;
+    opacity: 1;
+}
+ .paperScrollContent {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 7.6rem;
+    top: -36.2%;
+    border-radius: 0;
+}
