@@ -1,0 +1,21 @@
+.element--search__container--shelf,
+.element--search__container--listLayout {
+    background-color: #f3f3f3;
+    padding: 0;
+}
+.containerNormal--search__container--shelf {
+    border-radius: 0;
+}
+.brandName--summary-name {
+    font-size: 13px;
+    color: black;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 750px) {
+    .element--search__container--shelf {
+        padding-bottom: 0!important;
+    }
+    .containerNormal {
+        border-radius: 0;
+    }
+}
