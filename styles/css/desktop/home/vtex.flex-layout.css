@@ -14,11 +14,28 @@
     margin: 4px;
     background-color: #f3f3f3;
 }
+.flexCol--container__department__breadcrumb-and-switcher {
+    background-color: white;
+}
+.flexRow--row-department--breadcrumb {
+    border-top: 1px solid #E6E6E6;
+}
+.flexColChild--container__department__breadcrumb-and-switcher {
+    justify-content: center;
+    display: flex;
+}
+.flexColChild--container__department__breadcrumb-and-switcher {
+    margin-bottom: 2rem;
+}
 @media screen and (min-width: 751px) {
     .flexRowContent--home__media--section :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
         width: 79.3% !important;
         background-color: #FFFFFF;
         margin: 1.5px;
+    }
+    .flexCol--container__department__breadcrumb-and-switcher {
+        padding-right: 8rem;
+        padding-left: 8rem;
     }
 }
 

@@ -1,0 +1,28 @@
+@media screen and (min-width: 751px) {
+    .biggy-autocomplete-wrapper {
+        width: 66vh;
+    }
+}
+.biggy-autocomplete-wrapper {
+    width: 50vh;
+}
+.itemListLinkTitle {
+    color: #121212BF;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+.itemListLinkTitle:hover {
+    text-decoration: underline;
+}
+.biggy-autocomplete {
+    border: 1px solid #E6E6E6;
+    box-shadow: none;
+}
+.itemListTitle {
+    color: #121212BF;
+    font-size: 13px;
+    text-transform: none;
+}
+.itemListList:hover {
+    background-color: white;
+}

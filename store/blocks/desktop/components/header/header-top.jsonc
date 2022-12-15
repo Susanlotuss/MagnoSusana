@@ -278,14 +278,18 @@
         "children": [
             "rich-text#search",
             "modal-layout#desktop__header"
-        ]
+        ],
+        "props": {
+            "blockClass": "modal-search-bar"
+        }
     },
     "search-bar#desktop__header": {
         "title": "search-bar--desktop",
         "blocks": ["autocomplete-result-list.v2"],
         "props": {
           "openAutocompleteOnFocus": true,
-          "maxWidth": 155
+          "maxWidth": 155,
+          "blockClass": "search-bar"
         }
       },
       "modal-layout#desktop__header": {
