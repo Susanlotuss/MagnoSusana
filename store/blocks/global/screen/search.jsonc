@@ -92,7 +92,7 @@
       "product-rating-inline",
       "product-summary-name",      
  //     "product-list-price",
- //     "product-selling-price",
+      "product-selling-price",
       "product-summary-sku-selector",
       "add-to-cart-button",
       "modal-trigger#global__quick-view"
@@ -162,13 +162,13 @@
    "flex-layout.col#quick-view__modal--info":{
     "children":[
       "product-summary-name#quick-view__modal--info-name",
-      //"product-summary-brand",
-      //"product-summary-description",
-      "product-images#quick-view__modal--info"
-      /*"add-to-cart-button" */      
-     /* "product-summary-price",
+      "product-summary-brand",
+      "product-summary-description",
+      "product-images#quick-view__modal--info",
+      "add-to-cart-button",   
+      "product-summary-price",
       "share",
-      "product-quantity" */
+      "product-quantity" 
     ]
   },
   "product-summary-name#quick-view__modal--info-name":{
