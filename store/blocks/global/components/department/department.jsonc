@@ -183,7 +183,7 @@
           "itemsPerRow": 1
         }
       ],
-      "GeneralGrid":"product-summary.shelf",
+      "GeneralGrid":"product-summary.shelf#search-summary",
       "ListSummary": "product-summary.shelf#listLayout",
       "blockClass": "gallery-department"
     }
@@ -191,12 +191,13 @@
   "product-summary.shelf#listLayout":{
     "title": "list-layout",
     "children":[
-   //   "add-to-list-btn",
+      "add-to-list-btn",
       "product-summary-image",
       "product-rating-inline",
-      "product-summary-name",      
-  //    "product-list-price",
-      "product-selling-price",
+      "product-summary-name",
+      "product-summary-price", 
+      "product-list-price",
+  //    "product-selling-price",
       "product-summary-sku-selector",
       "add-to-cart-button",
       "modal-trigger#global__quick-view"
