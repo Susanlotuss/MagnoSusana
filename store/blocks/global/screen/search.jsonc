@@ -196,6 +196,7 @@
    "flex-layout.col#quick-view__modal--info":{
     "title": "flex-modalview--info",
     "children":[
+      "add-to-list-btn",
       "product-summary-name#quick-view__modal--info-name",
       "product-summary-brand",
       "product-summary-description",
