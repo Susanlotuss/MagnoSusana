@@ -9,7 +9,7 @@
             "header-spacer",
             "modal-trigger#search__header",
             "login#menu__mobile",
-            "minicart.v2"
+            "minicart.v2#container-minicart"
         ],
         "props": {
             "sticky": true,

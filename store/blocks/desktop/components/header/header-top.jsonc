@@ -1,344 +1,310 @@
 {
-    "header-row#header__top": {
-        "title": "header__desktop--menu",
-        "children": [
-            "logo#header__top--logo",
-            "menu#web",
-            "header-spacer",
-            "modal-trigger#search__header",
-    //        "search-bar#desktop__header",
-            "login#header__desktop",
-            "minicart.v2"
-        ],
-        "props": {
-            "sticky": true,
-            "blockClass": "desktop__menus"
-        }
-    },
-    "logo#header__top--logo": {
-        "title": "Logo",
-        "props": {
-            "url": "assets/img/magnoLogo.avif",
-            "width": 160,
-            "height": 68,
-            "href": "/"
-        }
-    },
-    "menu#web": {
-        "title": "menu-item--desktop",
-        "children":[
-            "menu-item#chocolates",
-            "menu-item#tortas",
-            "menu-item#corporativos",
-            "menu-item#preguntas",
-            "menu-item#blog",
-            "menu-item#contactanos"
-        ],
-        "props":{
-          "orientation": "horizontal",
-          "blockClass": "container__desktop--menu"
-        }
-    },
-    "menu-item#tortas": {
-        "title": "item-tortas",
-        "props": {
-            "id": "menu-item-tortas",
-                "type": "custom",
-                "highlight": false,
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/",
-                  "noFollow": false,
-                  "tagTitle": "tortas",
-                  "text": "Tortas"
-                }
-        }
-    },
-    "menu-item#corporativos": {
-        "title": "item-corporativo",
-        "props": {
-            "id": "menu-item-corporativos",
-                "type": "custom",
-                "highlight": false,
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/",
-                  "noFollow": false,
-                  "tagTitle": "corporativo",
-                  "text": "Corporativos"
-                }
-        }
-    },
-    "menu-item#preguntas": {
-        "title": "item-preguntas",
-        "props": {
-            "id": "menu-item-preguntas",
-                "type": "custom",
-                "highlight": false,
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/",
-                  "noFollow": false,
-                  "tagTitle": "preguntas",
-                  "text": "Preguntas frecuentes"
-                }
-        }
-    },
-    "menu-item#blog": {
-        "title": "item-blog",
-        "props": {
-            "id": "menu-item-blog",
-                "type": "custom",
-                "highlight": false,
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/",
-                  "noFollow": false,
-                  "tagTitle": "blog",
-                  "text": "Blog"
-                }
-        }
-    },
-    "menu-item#contactanos": {
-        "title": "item-contactanos",
-        "props": {
-            "id": "menu-item-contactanos",
-                "type": "custom",
-                "highlight": false,
-                "itemProps": {
-                  "type": "internal",
-                  "href": "/",
-                  "noFollow": false,
-                  "tagTitle": "contactanos",
-                  "text": "Contáctanos"
-                }
-        }
-    },
-    "menu-item#chocolates": {
-        "title": "item-chocolates",
-        "props": {
-            "id": "category-desktop--chocolates",
-                "type": "custom",
-                "blockClass": "category-submenu",
-                "highlight": false,
-                "itemProps": {
-                  "type": "internal",
-                  "href": "#",
-                  "noFollow": false,
-                  "tagTitle": "Chocolates",
-                  "text": "Chocolates ˅"
-                }
-        },
-        "blocks": [
-            "submenu#chocolates"
-        ]
-    },
-    "submenu#chocolates": {
-        "title": "submenu-chocolates",
-        "children": [
-            "menu#chocolates"
-        ],
-        "props":{
-            "blockClass": "chocolates-container",
-            "onMountBehavior": "closed"
-          }
-    },
-    "menu#chocolates": {
-        "title": "menu-chocolates",
-        "children": [
-            "menu-item#category-chocolates--mujer",
-            "menu-item#category-chocolates--hombre",
-            "menu-item#category-chocolates--sin",
-            "menu-item#category-chocolates--unisex",
-            "menu-item#category-chocolates--todo",
-            "menu-item#category-chocolates--Regalos"
-        ],
-        "props": {
-            "orientation": "vertical",
-            "blockClass": "chocolates-list"
-        }
-    },
-    "menu-item#category-chocolates--mujer": {
-        "title": "item-mujer",
-        "props": {
-            "id": "category-chocolates1",
-            "type":"custom",
-            "itemProps":{
-                "type": "external",
-                "href": "/",
-                "noFollow":true,
-                "tagTitle":"Chocolates",
-                "text": "Regalos y chocolates para mujer"
-            }
-        }
-    },
-    "menu-item#category-chocolates--hombre": {
-        "title": "item-hombre",
-        "props": {
-            "id": "category-chocolates2",
-            "type":"custom",
-            "itemProps":{
-                "type": "external",
-                "href": "/",
-                "noFollow":true,
-                "tagTitle":"Chocolates",
-                "text": "Regalos y chocolates para hombre"
-            }
-        }
-    },
-    "menu-item#category-chocolates--sin": {
-        "title": "item-sin",
-        "props": {
-            "id": "category-chocolates3",
-            "type":"custom",
-            "itemProps":{
-                "type": "external",
-                "href": "/",
-                "noFollow":true,
-                "tagTitle":"Chocolates",
-                "text": "Chocolates sin azúcar"
-            }
-        }
-    },
-    "menu-item#category-chocolates--unisex": {
-        "title": "item-unisex",
-        "props": {
-            "id": "category-chocolates4",
-            "type":"custom",
-            "itemProps":{
-                "type": "external",
-                "href": "/",
-                "noFollow":true,
-                "tagTitle":"Chocolates",
-                "text": "Chocolates unisex"
-            }
-        }
-    },
-    "menu-item#category-chocolates--todo": {
-        "title": "item-todo",
-        "props": {
-            "id": "category-chocolates5",
-            "type":"custom",
-            "itemProps":{
-                "type": "external",
-                "href": "/",
-                "noFollow":true,
-                "tagTitle":"Chocolates",
-                "text": "Todo"
-            }
-        }
-    },
-    "menu-item#category-chocolates--Regalos": {
-        "title": "item-regalos",
-        "props": {
-            "id": "category-chocolates6",
-            "type":"custom",
-            "itemProps":{
-                "type": "external",
-                "href": "/",
-                "noFollow":true,
-                "tagTitle":"Chocolates",
-                "text": "Regalos Navidad"
-            }
-        }
-    },
-    "modal-trigger#header__top--login": {
-        "title": "trigger-login",
-        "children": [
-            "rich-text#header__top--login",
-            "modal-layout#header__top--login"
-        ]
-    },
-    "rich-text#header__top--login": {
-        "title": "rich-login",
-        "props": {
-            "text": "login"
-        }
-    },
-    "modal-layout#header__top--login": {
-        "title": "layout-login",
-        "children": [
-            "login-content"
-        ]
-    },
-    "login#header__desktop": {
-        "title": "login-desktop",
-        "props": {
-            "iconLabel": " ",
-            "emailAndPasswordTitle": "Login",
-            "accessCodeTitle": "Access Code Login",
-            "emailPlaceHolder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile": true
-        }
-    },
-    "modal-trigger#search__header": {
-        "title": "modal-search",
-        "children": [
-            "rich-text#search",
-            "modal-layout#desktop__header"
-        ],
-        "props": {
-            "blockClass": "modal-search-bar"
-        }
-    },
-    "search-bar#desktop__header": {
-        "title": "search-bar--desktop",
-        "blocks": ["autocomplete-result-list.v2"],
-        "props": {
-          "openAutocompleteOnFocus": true,
-          "maxWidth": 155,
-          "blockClass": "search-bar"
-        }
-      },
-      "modal-layout#desktop__header": {
-        "title": "layout-header",
-        "children": [
-            "search-bar#desktop__header"
-        ],
-        "props": {
-            "fullScreen": false,
-            "blockClass": "modal-search"
-        }
-      },
-      "rich-text#search": {
-        "title": "rich-search",
-        "props": {
-            "text": "![search](assets/img/search_magnifier.png)",
-            "blockClass": "search-icon"
-        }
-      },
-      "minicart.v2": {
-        "props": {
-            "itemCountMode": "total",
-            "quantityDisplay": "always"
-        },
-        "children": ["minicart-base-content"]
-      },
-      "minicart-base-content": {
-        "blocks": ["minicart-empty-state"],
-        "children": ["minicart-product-list", "flex-layout.row#minicart__footer"]
-      },
-      "minicart-empty-state": {
-        "children": ["flex-layout.row#minicart__empty"]
-      },
-      "flex-layout.row#minicart__empty": {
-        "children": ["icon-cart#minicart__empty--icon", "rich-text#minicart__empty--text"]
-      },
-      "icon-cart#minicart__empty--icon": {
-        "props": {
-            "size": 100
-        }
-      },
-      "flex-layout.row#minicart__footer": {
-        "children": ["minicart-summary", "minicart-checkout-button"]
-      },
-      "rich-text#minicart__empty--text": {
-        "props": {
-            "text": "Tu carrito esta vacío",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
+  "header-row#header__top": {
+    "title": "header__desktop--menu",
+    "children": [
+      "logo#header__top--logo",
+      "menu#web",
+      "header-spacer",
+      "modal-trigger#search__header",
+      //        "search-bar#desktop__header",
+      "login#header__desktop",
+      "minicart.v2#container-minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "desktop__menus"
+    }
+  },
+  "minicart.v2#container-minicart": {
+    "props": {
+        "itemCountMode": "total",
+        "quantityDisplay": "always",
+        "variation": "link",
+        "linkVariationUrl": "/cart",
+        "blockClass": "minicart-static"
       }
+  },
+  "logo#header__top--logo": {
+    "title": "Logo",
+    "props": {
+      "url": "assets/img/magnoLogo.avif",
+      "width": 160,
+      "height": 68,
+      "href": "/"
+    }
+  },
+  "menu#web": {
+    "title": "menu-item--desktop",
+    "children": [
+      "menu-item#chocolates",
+      "menu-item#tortas",
+      "menu-item#corporativos",
+      "menu-item#preguntas",
+      "menu-item#blog",
+      "menu-item#contactanos"
+    ],
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "container__desktop--menu"
+    }
+  },
+  "menu-item#tortas": {
+    "title": "item-tortas",
+    "props": {
+      "id": "menu-item-tortas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "tortas",
+        "text": "Tortas"
+      }
+    }
+  },
+  "menu-item#corporativos": {
+    "title": "item-corporativo",
+    "props": {
+      "id": "menu-item-corporativos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "corporativo",
+        "text": "Corporativos"
+      }
+    }
+  },
+  "menu-item#preguntas": {
+    "title": "item-preguntas",
+    "props": {
+      "id": "menu-item-preguntas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "preguntas",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "title": "item-blog",
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#contactanos": {
+    "title": "item-contactanos",
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "contactanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+  "menu-item#chocolates": {
+    "title": "item-chocolates",
+    "props": {
+      "id": "category-desktop--chocolates",
+      "type": "custom",
+      "blockClass": "category-submenu",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chocolates",
+        "text": "Chocolates ˅"
+      }
+    },
+    "blocks": ["submenu#chocolates"]
+  },
+  "submenu#chocolates": {
+    "title": "submenu-chocolates",
+    "children": ["menu#chocolates"],
+    "props": {
+      "blockClass": "chocolates-container",
+      "onMountBehavior": "closed"
+    }
+  },
+  "menu#chocolates": {
+    "title": "menu-chocolates",
+    "children": [
+      "menu-item#category-chocolates--mujer",
+      "menu-item#category-chocolates--hombre",
+      "menu-item#category-chocolates--sin",
+      "menu-item#category-chocolates--unisex",
+      "menu-item#category-chocolates--todo",
+      "menu-item#category-chocolates--Regalos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "chocolates-list"
+    }
+  },
+  "menu-item#category-chocolates--mujer": {
+    "title": "item-mujer",
+    "props": {
+      "id": "category-chocolates1",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chocolates",
+        "text": "Regalos y chocolates para mujer"
+      }
+    }
+  },
+  "menu-item#category-chocolates--hombre": {
+    "title": "item-hombre",
+    "props": {
+      "id": "category-chocolates2",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chocolates",
+        "text": "Regalos y chocolates para hombre"
+      }
+    }
+  },
+  "menu-item#category-chocolates--sin": {
+    "title": "item-sin",
+    "props": {
+      "id": "category-chocolates3",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chocolates",
+        "text": "Chocolates sin azúcar"
+      }
+    }
+  },
+  "menu-item#category-chocolates--unisex": {
+    "title": "item-unisex",
+    "props": {
+      "id": "category-chocolates4",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chocolates",
+        "text": "Chocolates unisex"
+      }
+    }
+  },
+  "menu-item#category-chocolates--todo": {
+    "title": "item-todo",
+    "props": {
+      "id": "category-chocolates5",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chocolates",
+        "text": "Todo"
+      }
+    }
+  },
+  "menu-item#category-chocolates--Regalos": {
+    "title": "item-regalos",
+    "props": {
+      "id": "category-chocolates6",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chocolates",
+        "text": "Regalos Navidad"
+      }
+    }
+  },
+  "modal-trigger#header__top--login": {
+    "title": "trigger-login",
+    "children": [
+      "rich-text#header__top--login",
+      "modal-layout#header__top--login"
+    ]
+  },
+  "rich-text#header__top--login": {
+    "title": "rich-login",
+    "props": {
+      "text": "login"
+    }
+  },
+  "modal-layout#header__top--login": {
+    "title": "layout-login",
+    "children": ["login-content"]
+  },
+  "login#header__desktop": {
+    "title": "login-desktop",
+    "props": {
+      "iconLabel": " ",
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Access Code Login",
+      "emailPlaceHolder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "modal-trigger#search__header": {
+    "title": "modal-search",
+    "children": ["rich-text#search", "modal-layout#desktop__header"],
+    "props": {
+      "blockClass": "modal-search-bar"
+    }
+  },
+  "search-bar#desktop__header": {
+    "title": "search-bar--desktop",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 155,
+      "blockClass": "search-bar"
+    }
+  },
+  "modal-layout#desktop__header": {
+    "title": "layout-header",
+    "children": ["search-bar#desktop__header"],
+    "props": {
+      "fullScreen": false,
+      "blockClass": "modal-search"
+    }
+  },
+  "rich-text#search": {
+    "title": "rich-search",
+    "props": {
+      "text": "![search](assets/img/search_magnifier.png)",
+      "blockClass": "search-icon"
+    }
+  }
 }
