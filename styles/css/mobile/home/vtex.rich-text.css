@@ -1,73 +1,123 @@
-@media screen and (max-width: 750px) {
-    .link--notification-bar {
-      font-size: 12px;
-      word-break: break-word;
-    }
-    .paragraph--notification-bar {
-      line-height: 1.1;
-    }
-    .container--notification-bar {
-      padding-top: 10px;
-      padding-right: 20px;
-      padding-bottom: 10px;
-      padding-left: 20px;
-    }
-    .link--category__text {
-      font-size: 1.7rem;
-    }
-    .paragraph--welcome-text2 {
-      margin-left: 25px;
-      margin-right: 25px;
-      font-size: 15px;
-    }
-    .paragraph--welcome-text {
-      font-size: 20px;
-      margin-left: 40px;
-      margin-right: 40px;
-      margin-top: 18px;
-    }
-    .paragraph--categorias__favoritas {
-      font-size: 20px;
-      margin: 0;
-    }
-    .container--categorias__favoritas,
-    .container--grid--button__mobile {
-      background-color: white;
-    }
-    .container--category__text--mobile {
-      padding-top: 3px;
-      padding-bottom: 3px;
-    }
-    .container--category__text2--mobile {
-      padding-top: 2.5rem;
-      padding-bottom: 2.6rem;
-    }
-    .container--category__text3--mobile {
-      padding-top: 1.8rem;
-      padding-bottom: 1.7rem;
-    }
-    .link--category__text--mobile,
-    .link--category__text2--mobile,
-    .link--category__text3--mobile {
-      font-size: 17px;
-      color: #121212;
-      text-decoration: none;
-      word-break: break-word;
-    }
-    .paragraph--category__text--mobile,
-    .paragraph--category__text2--mobile,
-    .paragraph--category__text3--mobile {
-      margin-left: 2rem;
-      padding-right: 2rem;
-    }
-    .paragraph--grid--button__mobile {
-      font-size: 14px;
-      margin: 0;
-    }
-    .link--grid--button__mobile {
-      color: black;
-      text-underline-offset: 0.3rem;
-      letter-spacing: 1px;
-    }
-   
+@media screen and (max-width: 1025px) {
+  .link--notification-bar {
+    font-size: 12px;
+    word-break: break-word;
   }
+  .paragraph--notification-bar {
+    line-height: 1.1;
+  }
+  .container--notification-bar {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .link--category__text {
+    font-size: 1.7rem;
+  }
+  .paragraph--welcome-text2 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+  }
+  .paragraph--welcome-text {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 18px;
+  }
+  .paragraph--categorias__favoritas {
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .container--categorias__favoritas,
+  .container--grid--button__mobile {
+    background-color: white;
+  }
+  .container--category__text--mobile {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .container--category__text2--mobile {
+    padding-top: 2.5rem;
+    padding-bottom: 2.6rem;
+  }
+  .container--category__text3--mobile {
+    padding-top: 1.8rem;
+    padding-bottom: 1.7rem;
+  }
+  .link--category__text--mobile,
+  .link--category__text2--mobile,
+  .link--category__text3--mobile {
+    font-size: 17px;
+    color: #121212;
+    text-decoration: none;
+    word-break: break-word;
+  }
+  .paragraph--category__text--mobile,
+  .paragraph--category__text2--mobile,
+  .paragraph--category__text3--mobile {
+    margin-left: 2rem;
+    padding-right: 2rem;
+  }
+  .paragraph--grid--button__mobile,
+  .paragraph--shelf--button__mobile {
+    font-size: 14px;
+    margin: 0;
+  }
+  .link--grid--button__mobile,
+  .link--shelf--button__mobile {
+    color: black;
+    text-underline-offset: 0.3rem;
+    letter-spacing: 1px;
+  }
+  .container--products--title-desktop {
+    margin-top: 3rem;
+  }
+  .container--categorias__favoritas {
+    min-width: 15rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .image--search-icon {
+    width: 17.5px;
+    padding-right: 1rem;
+  }
+  .paragraph--products--title-desktop {
+    font-size: 20px;
+    margin-top: revert;
+    margin-left: 0;
+  }
+  .paragraph--shelf__title {
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 1px;
+    margin-right: 4rem;
+  }
+  .container--shelf__title {
+    background-color: #F3F3F3;
+    padding-left: 0; 
+     padding-right: 0;
+  }
+  .container--shelf--button__mobile {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem;
+  }
+  .container--shelf__title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+  }
+  .paragraph--artesanal__text {
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: .8px;
+    line-height: 1.3;
+  }
+  .paragraph--media__text {
+    padding: 0;
+    letter-spacing: .8px;
+    line-height: 1.3;
+  }
+}

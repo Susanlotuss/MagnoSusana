@@ -1,0 +1,19 @@
+@media screen and (min-width: 500px) {
+    .searchBarContainer {
+        min-width: 30rem;
+    }
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    height: 3rem;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #121212BF;
+}
+.searchBarContainer :global(.vtex-input-prefix__group):hover {
+    border-width: 2px;
+}
+@media screen and (max-width: 499px) {
+    .searchBarContainer {
+        min-width: 20rem;
+    }
+}

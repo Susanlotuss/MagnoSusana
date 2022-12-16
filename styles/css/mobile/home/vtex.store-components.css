@@ -1,5 +1,6 @@
-@media screen and (max-width: 750px) {
-    .container {
-        padding: 2px;
-      }
-} 
+@media screen and (max-width: 1025px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

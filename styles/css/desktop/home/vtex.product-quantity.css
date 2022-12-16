@@ -1,0 +1,5 @@
+.quantitySelectorTitle,
+.quantitySelectorStepper {
+    justify-content: center;
+    display: flex;
+}

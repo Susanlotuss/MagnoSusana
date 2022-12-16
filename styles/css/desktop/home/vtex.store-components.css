@@ -4,6 +4,11 @@
 .vtex-flex-layout-0-x-stretchChildrenWidth {
     width: 0%;
 }
+.shareContainer {
+    justify-content: space-around;
+    display: flex;
+}
 /*.imageElement {
     padding: 3rem;
 }*/
+

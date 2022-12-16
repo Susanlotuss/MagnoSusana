@@ -97,18 +97,12 @@
 .container--products--title-desktop {
   padding-top: 28px;
   background-color: #f3f3f3;
-}
-.container--products--button-desktop {
   background-color: #f3f3f3;
   padding-bottom: 36px;
-}
-.container--products--button-desktop {
   justify-content: center;
 }
 .paragraph--artesanal__text {
-  font-size: 24px;
-  color: #121212;
-  letter-spacing: 1px;
+  font-size: 20px;
 }
 .paragraph--media__text {
   font-size: 20px;
@@ -134,10 +128,30 @@
   width: 21px;
   padding-top: 0.4rem;
 }
-
+.paragraph--search-result-title {
+  font-size: 20px;
+}
+.container--quickview-trigger--text {
+  justify-content: center;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 750px) {
+  .paragraph--search-result-title {
+    margin-bottom: 0;
+    padding-top: 20px;
+    letter-spacing: 1px;
+  }
+}
 @media screen and (min-width: 751px) {
   .paragraph--welcome-text {
     font-size: 24px;
+  }
+  .paragraph--search-result-title {
+    font-size: 24px;
+    color: #121212;
+    letter-spacing: 1px;
   }
   .paragraph--categorias__favoritas {
     font-size: 24px;
@@ -146,6 +160,35 @@
     font-size: 1.1rem;
     letter-spacing: .06rem;
     word-break: break-word;
+  }
+  .container--products--button-desktop {
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding-bottom: 2rem;
+  }
+  .container--shelf__title {
+    font-size: 24px;
+    background-color: #f3f3f3;
+  }
+  .paragraph--artesanal__text {
+    font-size: 24px;
+    color: #121212;
+    letter-spacing: 1px;
+  }
+  .paragraph--shelf__title {
+    color: black;
+    margin-left: 100%;
+  }
+  .container--search-result-title {
+    justify-content: center;
+  }
+  .wrapper--search-result-title {
+    padding-top: 2rem;
+  }
+  .paragraph--layout-option--grid,
+  .paragraph--layout-option--list {
+    font-size: 14px;
+    padding-left: 2px;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -156,5 +199,9 @@
 @media screen and (min-width: 1661px) {
   .paragraph--products--title-desktop {
     margin-left: 12.8em;
+  }
+  .paragraph--shelf__title {
+    color: black;
+    margin-left: 150%;
   }
 }

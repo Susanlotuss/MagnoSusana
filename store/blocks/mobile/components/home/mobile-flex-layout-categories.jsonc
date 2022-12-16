@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#mobile__linktext": {
+    "title": "link-text__mobile",
+    "children": [
+      "rich-text#global__categories--title",
+      "rich-text#grid__button--mobile"
+    ],
+    "props": {
+      "blockclass": "linktext-mobile"
+    }
+  }
+}

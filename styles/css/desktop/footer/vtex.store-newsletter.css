@@ -1,0 +1,10 @@
+.formSubmitContainer :global(.vtex-button) {
+    background-color: white;
+    border: 1px solid #cacbcc;
+}
+.formSubmitContainer :global(.vtex-button__label) {
+    color: #979899;
+}
+.emailInputContainer {
+    width: 70%;
+}

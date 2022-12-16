@@ -1,0 +1,8 @@
+@media screen and (max-width: 1025px) {
+    .socialNetworksContainer {
+        justify-content: center;
+    }
+    .footerLayoutSpacer--footer__container--mobile {
+        border-top: 1px solid #E6E6E6;
+    }
+}

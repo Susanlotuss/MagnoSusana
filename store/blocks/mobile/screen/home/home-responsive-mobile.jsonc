@@ -1,5 +1,5 @@
 {
-  "responsive-layout.mobile#home__info--mobile": {
+  "responsive-layout.phone#home__info--mobile": {
     "title": "Mobile component",
     "children": [
       "link#home__product-page",
@@ -7,21 +7,24 @@
       "rich-text#home__section--up",
       "rich-text#home__section--down",
       "flex-layout.row#mobile__linktext",
-  //    "rich-text#global__categories--title",
-  //    "rich-text#grid__button--mobile",
+      //    "rich-text#global__categories--title",
+      //    "rich-text#grid__button--mobile",
       "slider-layout#mobile__categories",
-      "list-context.product-list#home__desktop--products",
-      "rich-text#products__button",
-      "flex-layout.row#home__artesanal"
-    //  "flex-layout.row#mobile__category"
-   //   "flex-layout.row#mobile__categories"
+      "flex-layout.row#mobile__linktext--shelf",
+      "list-context.product-list#mobile__desktop--products",
+  //    "rich-text#products__button",
+      "flex-layout.row#home__artesanal",
+      "flex-layout.row#home__media"
+   //   "flex-layout.row#home__mobile--media"
+      //  "flex-layout.row#mobile__category"
+      //   "flex-layout.row#mobile__categories"
       //   "slider-layout#mobile__category"
     ],
     "props": {
       "blockClass": "mobile__responsive"
     }
   }
-/*  "rich-text#home__info--mobile": {
+  /*  "rich-text#home__info--mobile": {
     "props": {
       "text": "# Resolucion de Mobile"
     }

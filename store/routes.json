@@ -1,1 +1,5 @@
-{}
+{
+    "store.custom#cart": {
+        "path": "/cart"
+      }
+}

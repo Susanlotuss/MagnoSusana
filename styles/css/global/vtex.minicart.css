@@ -13,3 +13,11 @@
     height: 21px;
   }
 }
+@media screen and (max-width: 1025px) {
+  .openIconContainer {
+    padding-left: 0px;
+  }
+  .openIconContainer :global(.vtex-button__label) {
+    padding-left: 0px;
+  }
+}

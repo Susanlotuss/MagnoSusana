@@ -5,10 +5,7 @@
 .sliderLayoutContainer--products--carousel-desktop {
   background-color: #f3f3f3;
 }
-.slide--products--carousel-desktop--firstVisible {
-  width: 3% !important;
-}
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1025px) {
   .slideChildrenContainer--home__slider {
     min-height: 420px;
     max-height: 420px;
@@ -17,18 +14,13 @@
     transform: translateY(30px);
   }
 }
-@media screen and (max-width: 1600px) {
-    .sliderLayoutContainer--products--carousel-desktop {
-        padding-left: 6.5rem !important;
-        padding-right: 4rem !important;
-      }
+
+@media screen and (min-width: 1026px) {
+  .sliderLayoutContainer--products--carousel-desktop {
+    padding-left: 6.8rem !important;
+    padding-right: 5rem !important;
   }
-  @media screen and (min-width: 1661px) {
-    .sliderLayoutContainer--products--carousel-desktop {
-        padding-left: 17.8rem !important;
-        padding-right: 16rem !important;
-      }
-  }
+}
 /*@media screen and (min-width: 749px)
 .slideChildrenContainer--home__slider {
     min-height: 28rem;

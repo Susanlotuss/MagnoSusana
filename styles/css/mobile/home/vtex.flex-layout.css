@@ -1,9 +1,17 @@
-@media screen and (max-width: 750px) {
-    .flexRowContent {
-        display: inline-flex;
-    }
-    .stretchChildrenWidth {
-        margin: 0;
-        width: 150%;
-    }
+@media screen and (max-width: 1025px) {
+  .flexRowContent {
+    display: inline-flex;
+  }
+  .stretchChildrenWidth {
+    margin: 0;
+  }
+  .flexRowContent--home__media--section,
+  .flexRow--home__artesanal--section {
+    padding: 15px;
+  }
+}
+.flexRowContent--home__media--section
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background-color: #ffffff;
+  margin: 1.5px;
 }
