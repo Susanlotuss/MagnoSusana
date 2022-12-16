@@ -11,6 +11,12 @@
     color: black;
     letter-spacing: 1px;
 }
+.productBrandContainer,
+.description,
+.sellingPriceContainer {
+    justify-content: center;
+    display: flex;
+}
 @media screen and (max-width: 750px) {
     .element--search__container--shelf {
         padding-bottom: 0!important;
