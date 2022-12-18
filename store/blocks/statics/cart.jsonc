@@ -1,8 +1,13 @@
 {
   "store.custom#cart": {
     "title": "static-minicart",
-    "blocks": ["minicart.v2"]
-  }/*,
+    "blocks": ["minicart.v2"],
+    "children": ["footer-layout.desktop"],
+    "props": {
+      "blockClass": "footer__minicart--tablet"
+    }
+  }
+}/*,
   "minicart.v2": {
     "title": "minicart-component",
 
@@ -43,4 +48,3 @@
       "textPosition": "CENTER"
     }
   }*/
-}
