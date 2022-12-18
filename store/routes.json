@@ -1,5 +1,8 @@
 {
-    "store.custom#cart": {
-        "path": "/cart"
-      }
+  "store.custom#cart": {
+    "path": "/cart"
+  },
+  "store.custom#questions": {
+    "path": "/questions"
+  }
 }

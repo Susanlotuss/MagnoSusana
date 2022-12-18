@@ -215,7 +215,7 @@
   "rich-text#footer__container--empresas-three": {
     "title": "footer-containerThree--empresa",
     "props": {
-      "text": "[Preguntas Frecuentes](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+      "text": "[Preguntas Frecuentes](/questions)",
       "textPosition": "LEFT",
       "blockClass": "rich-text__footer__container--options"
     }
