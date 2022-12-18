@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "info pdp",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ]
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "pdp-image",
+    "children": ["product-images"]
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "pdp-data",
+    "children": [
+        "vtex.store-components:product-name",
+        "product-price",
+        "product-quantity"
+    ]
+  }
+}
