@@ -2,7 +2,7 @@
   "store.custom#questions": {
     "title": "static-questions",
     "blocks": ["flex-layout.row#questions"],
-    "children": ["footer-layout.desktop"],
+//    "children": ["footer-layout.desktop"],
     "props": {
       "blockClass": "static__questions"
     }
@@ -29,7 +29,8 @@
       "rich-text#questions-almacenar--content",
       "rich-text#questions-sugarfree--title",
       "rich-text#questions-sugarfree--content",
-      "image#sugarfree__questions"
+      "image#sugarfree__questions",
+      "footer-layout.desktop"
     ],
     "props": {
       "preventVerticalStretch": true,
