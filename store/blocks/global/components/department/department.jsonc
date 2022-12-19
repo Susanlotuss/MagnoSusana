@@ -58,8 +58,7 @@
     "title": "responsive-tablet--department",
     "children":[
       "flex-layout.row#category__filter",
-      "flex-layout.row#category__results",
-      "footer-layout.desktop"
+      "flex-layout.row#category__results"
     ],
     "props": {
       "blockClass": "responsive-tablet--department"
