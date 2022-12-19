@@ -40,12 +40,6 @@
     padding-left: 8rem;
   }
 }
-@media screen and (min-width: 1026px) {
-  .flexCol--static__questions--answers
-    :global(.vtex-store-footer-2-x-footerLayout--footer__container) {
-    display: none;
-  }
-}
 
 /*.flexRow--home__category--rrrr {
     flex-direction: row;

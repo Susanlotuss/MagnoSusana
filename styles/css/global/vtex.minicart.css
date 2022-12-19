@@ -13,11 +13,6 @@
     height: 21px;
   }
 }
-@media screen and (min-width: 1026px) {
-  .minicartWrapperContainer--minicart-static :global(.vtex-store-footer-2-x-footerLayout--footer__container) {
-    display: none;
-  }
-}
 @media screen and (max-width: 1025px) {
   .openIconContainer {
     padding-left: 0px;
