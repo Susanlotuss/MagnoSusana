@@ -13,9 +13,16 @@
   "flex-layout.col#product__info--data": {
     "title": "pdp-data",
     "children": [
-        "vtex.store-components:product-name",
-        "product-price",
-        "product-quantity"
+      "vtex.store-components:product-name",
+      "product-description",
+      "product-price",
+      "product-separator",
+      "product-quantity",
+      "product-identifier.product",
+      "sku-selector",
+      "buy-button",
+      "shipping-simulator",
+      "share"
     ]
   }
 }

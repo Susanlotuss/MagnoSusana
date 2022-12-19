@@ -8,7 +8,7 @@
       "linkVariationUrl": "/cart",
       "blockClass": "minicart-static"
     },
-    "children": ["minicart-base-content"]
+    "children": ["minicart-base-content", "footer-layout.desktop"]
   },
   "minicart-base-content": {
     "blocks": ["minicart-empty-state"],

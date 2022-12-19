@@ -1,10 +1,16 @@
 {
     "flex-layout.row#product__breadcrumb": {
         "title": "breadcrumb-product",
-        "children": ["flex-layout.col#product__breadcrumb"]
+        "children": ["flex-layout.col#product__breadcrumb"],
+        "props": {
+          "blockClass": "pdp__breadcrumb"
+        }
       },
       "flex-layout.col#product__breadcrumb": {
         "title": "crumb-product",
-        "children": ["breadcrumb"]
+        "children": ["breadcrumb"],
+        "props": {
+          "blockClass": "pdp__breadcrumb--product"
+        }
       }
 }

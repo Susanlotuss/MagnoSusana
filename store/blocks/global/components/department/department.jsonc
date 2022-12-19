@@ -12,7 +12,7 @@
     "title": "search-layout--department",
     "children":[   
       "flex-layout.row#department__breadcrumb",
-      "responsive-layout.desktop#desktop__department"  
+      "responsive-layout.desktop#desktop__department"
       
     ],
     "props": {
@@ -58,7 +58,8 @@
     "title": "responsive-tablet--department",
     "children":[
       "flex-layout.row#category__filter",
-      "flex-layout.row#category__results"
+      "flex-layout.row#category__results",
+      "footer-layout.desktop"
     ],
     "props": {
       "blockClass": "responsive-tablet--department"
