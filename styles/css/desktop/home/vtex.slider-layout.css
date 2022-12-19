@@ -20,6 +20,12 @@
     padding-left: 6.8rem !important;
     padding-right: 5rem !important;
   }
+  .sliderLayoutContainer--products--carousel-related :global(.vtex-store-footer-2-x-footerLayout--footer__container) {
+    display: none;
+  }
+  .slide--products--carousel-related--hidden :global(.vtex-store-footer-2-x-footerLayout--footer__container) {
+    display: none;
+  }
 }
 /*@media screen and (min-width: 749px)
 .slideChildrenContainer--home__slider {

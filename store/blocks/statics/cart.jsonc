@@ -2,7 +2,7 @@
   "store.custom#cart": {
     "title": "static-minicart",
     "blocks": ["minicart.v2"],
-    "children": ["footer-layout.desktop"],
+ //   "children": ["footer-layout.desktop"],
     "props": {
       "blockClass": "footer__minicart--tablet"
     }

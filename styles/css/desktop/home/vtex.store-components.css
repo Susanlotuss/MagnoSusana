@@ -8,6 +8,11 @@
     justify-content: space-around;
     display: flex;
 }
+@media screen and (min-width: 1026px) {
+    .searchResultContainer--search-layout-desktop--department :global(.vtex-store-footer-2-x-footerLayout--footer__container) {
+        display: none;
+    }
+} 
 /*.imageElement {
     padding: 3rem;
 }*/

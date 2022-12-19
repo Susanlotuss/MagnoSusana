@@ -1,13 +1,16 @@
 {
   "store.product": {
+    "props": {
+      "blockClass": "pdp__container"
+    },
     "children": [
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__info",
-      "flex-layout.row#product__tabs"
+      "flex-layout.row#product__tabs",
+      "list-context.product-list#pdp__related--products"
     ]
   },
   "flex-layout.row#product__tabs": {
     "title": "info adicional"
-
   }
 }
