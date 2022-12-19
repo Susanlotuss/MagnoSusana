@@ -1,6 +1,6 @@
 {
-    "footer-layout.mobile": {
-        "title": "mobile-footer",
+  "responsive-layout.phone#footer": {
+        "title": "phone-footer",
       "children": [
         "flex-layout.row#footer-mobile--all",
         "flex-layout.row#footer-mobile--newsletter",

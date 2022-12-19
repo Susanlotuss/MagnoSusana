@@ -29,8 +29,7 @@
       "rich-text#questions-almacenar--content",
       "rich-text#questions-sugarfree--title",
       "rich-text#questions-sugarfree--content",
-      "image#sugarfree__questions",
-      "footer-layout.desktop"
+      "image#sugarfree__questions"
     ],
     "props": {
       "preventVerticalStretch": true,

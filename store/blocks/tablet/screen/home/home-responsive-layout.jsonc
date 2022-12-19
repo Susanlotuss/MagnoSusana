@@ -1,6 +1,6 @@
 {
-    "responsive-layout.tablet#home__info--tablet": {
-        "title": "Tablet component",
+  "responsive-layout.tablet#home__info--tablet": {
+    "title": "Tablet component",
     "children": [
       "link#home__product-page",
       "slider-layout#home__slider--children",
@@ -10,17 +10,16 @@
       "slider-layout#mobile__categories",
       "flex-layout.row#mobile__linktext--shelf",
       "list-context.product-list#mobile__desktop--products",
-  //    "rich-text#global__categories--title",
-  //    "flex-layout.row#home__category",
-  //    "rich-text#grid__button",
-  //    "list-context.product-list#home__desktop--products",
-  //    "rich-text#products__button",
+      //    "rich-text#global__categories--title",
+      //    "flex-layout.row#home__category",
+      //    "rich-text#grid__button",
+      //    "list-context.product-list#home__desktop--products",
+      //    "rich-text#products__button",
       "flex-layout.row#home__artesanal",
-      "flex-layout.row#home__media",
-      "footer-layout.desktop"
+      "flex-layout.row#home__media"
     ],
     "props": {
       "blockClass": "home__responsive--tablet"
     }
-    }
+  }
 }
