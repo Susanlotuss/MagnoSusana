@@ -74,6 +74,12 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.minicartWrapperContainer--minicart-static--phone {
+  float: none;
+}
+.minicartWrapperContainer--minicart-static {
+  justify-content: center;
+}
 @media screen and (min-width: 990px) {
   .cartIcon {
     width: 21px;

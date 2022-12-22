@@ -46,29 +46,6 @@
         "blockClass": "minicart__title--link"
     }
 },
-  "minicart-empty-state": {
-    "title": "minicart-empty--tablet",
-    "children": ["flex-layout.row#minicart__empty"],
-    "props": {
-      "blockClass": "minicart-static--empty"
-    }
-  },
-  "flex-layout.row#minicart__empty": {
-    "title": "minicart-row-empty--tablet",
-    "children": [
-      "icon-cart#minicart__empty--icon",
-      "rich-text#minicart__empty--text"
-    ],
-    "props": {
-      "blockClass": "minicart-empty--row"
-    }
-  },
-  "icon-cart#minicart__empty--icon": {
-    "title": "minicart-icon",
-    "props": {
-      "size": 100
-    }
-  },
   "minicart-product-list#phone": {
     "title": "product-list--phone",
     "blocks": ["product-list#minicart--phone"]
@@ -170,15 +147,6 @@
     "children": ["minicart-summary", "minicart-checkout-button"],
     "props": {
       "blockClass": "minicart-col--footer"
-    }
-  },
-  "rich-text#minicart__empty--text": {
-    "title": "minicart-empty-text--phone",
-    "props": {
-      "text": "Tu carrito esta vacío",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "minicart-empty--text"
     }
   },
   "minicart-checkout-button": {

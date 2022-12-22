@@ -1,0 +1,63 @@
+{
+    "minicart-empty-state": {
+        "title": "minicart-empty",
+        "children": ["flex-layout.row#minicart__empty--global"],
+        "props": {
+          "blockClass": "minicart-static--empty"
+        }
+      },
+      "flex-layout.row#minicart__empty--global": {
+        "title": "minicart-row-empty",
+        "children": [
+            "flex-layout.col#minicart__empty--cols"
+        ],
+        "props": {
+          "blockClass": "minicart-empty--row"
+        }
+      },
+      "flex-layout.col#minicart__empty--cols": {
+        "title": "minicart-col-empty",
+        "children": [
+        "rich-text#minicart__empty--text-title",
+          "rich-text#minicart__empty--buy",
+          "rich-text#minicart__empty--acc",
+          "rich-text#minicart__empty--login"
+        ]
+      },
+      "rich-text#minicart__empty--text-title": {
+        "title": "minicart-empty-text",
+        "props": {
+          "text": "Tu carrito esta vacío",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "minicart-empty--text"
+        }
+      },
+      "rich-text#minicart__empty--buy": {
+        "title": "minicart-empty-buy",
+        "props": {
+          "text": "[Seguir comprando](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "minicart-empty--buy"
+        }
+      },
+      "rich-text#minicart__empty--acc": {
+        "title": "minicart-empty-acc",
+        "props": {
+          "text": "¿Tienes una cuenta?",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "minicart-empty--acc"
+        }
+      },
+      "rich-text#minicart__empty--login": {
+        "title": "minicart-empty-login",
+        "props": {
+          "text": "[Inicia sesión](https://susanamartinez--itgloberspartnercl.myvtex.com/account#/) para finalizar tus compras con mayor rapidez.",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "minicart-empty--login"
+        }
+      }
+}

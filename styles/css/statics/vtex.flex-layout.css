@@ -50,3 +50,6 @@
   margin-left: 17rem;
   padding-left: 5rem;
 }
+.flexRowContent--minicart-empty--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background-color: white;
+}
