@@ -25,6 +25,50 @@
   margin-bottom: 30px;
   background-color: white;
 }
+.paragraph--minicart-empty--text {
+  font-size: 40px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-bottom: 1rem;
+}
+.link--minicart-empty--buy {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.wrapper--minicart-empty--buy {
+  background-color: #5edad1;
+}
+.paragraph--minicart-empty--buy {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container--minicart-empty--buy {
+  margin-bottom: 3rem;
+}
+.paragraph--minicart-empty--acc {
+  font-size: 24px;
+  color: #121212;
+  margin-bottom: 5px;
+}
+.paragraph--minicart-empty--login,
+.link--minicart-empty--login {
+  font-size: 16px;
+  color: #121212bf;
+  margin-top: 0;
+  letter-spacing: 1px;
+  text-underline-offset: 0.3rem;
+}
+.wrapper--minicart-empty--login {
+  margin-bottom: 3rem;
+}
+
 .paragraph--questions__static--title {
   font-size: 52px;
   color: #121212;
@@ -60,6 +104,21 @@
     padding-left: 2rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .paragraph--minicart-empty--text {
+    font-size: 30px;
+  }
+  .paragraph--minicart-empty--login,
+  .link--minicart-empty--login {
+    font-size: 15px;
+  }
+  .paragraph--minicart-empty--acc {
+    font-size: 20px;
+  }
+  :global(.vtex-minicart-2-x-minicartEmptyStateContainer--minicart-static--empty) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+=======
 @media screen and (max-width: 590px) {
   .paragraph--questions__static--title {
     font-size: 30px;
