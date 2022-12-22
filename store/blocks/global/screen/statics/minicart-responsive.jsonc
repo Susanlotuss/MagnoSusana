@@ -1,0 +1,13 @@
+{
+    "product-list": {
+        "title": "product-container-global",
+        "blocks": ["product-list-content-desktop", "product-list-content-mobile"]
+      },
+      "product-list-content-mobile": {
+        "title": "product-list-responsive",
+        "children": [
+          "responsive-layout.phone#minicart__phone--content",
+          "responsive-layout.tablet#minicart__tablet--content"
+        ]
+      }
+}
