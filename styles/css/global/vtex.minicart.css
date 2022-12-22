@@ -2,11 +2,78 @@
   width: 18px;
   height: 18px;
 }
-
 .openIconContainer {
   padding-right: 0px;
 }
-
+:global(.vtex-dropdown__container) {
+  border-radius: 0;
+  border: 1px solid #121212;
+}
+.popupStyles {
+  max-height: none;
+}
+.minicartWrapperContainer--minicart-static {
+  float: none;
+}
+.minicartContainer--minicart-static {
+  max-width: 100%;
+}
+.minicartProductListContainer
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background-color: white;
+}
+.minicartQuantityBadge {
+  background-color: #5edad1;
+}
+.minicartContentContainer--minicart-static--content {
+  max-height: none;
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+.minicartTitle--minicart-static--content,
+.minicartTitle--minicart-tablet--content {
+  display: none;
+}
+.minicartProductListContainer {
+  border-bottom: 1px solid #e6e6e6;
+}
+.minicartCheckoutButton :global(.vtex-button) {
+  border-radius: 0;
+}
+.minicartContentContainer--minicart-tablet--content {
+  
+  margin-left: 2rem;
+}
+.flexRow--minicart__row--tablet {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.minicartContainer--minicart-static--tablet {
+  width: 100%;
+  margin-right: 3rem;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--minicart-quantity--tablet) {
+  margin-left: 5rem;
+}
+:global(.vtex-flex-layout-0-x-flexCol--minicart-remove--tablet) {
+  margin-left: 5rem;
+}
+.minicartContentContainer--minicart-tablet--content
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart-remove) {
+  margin-left: 10rem;
+  position: absolute;
+}
+.minicartContentContainer--minicart-tablet--content
+  :global(.vtex-flex-layout-0-x-flexColChild--minicart-price) {
+  margin-left: 3rem;
+}
+.minicartWrapperContainer--minicart-static--tablet {
+  float: none;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart__row--tablet) {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 @media screen and (min-width: 990px) {
   .cartIcon {
     width: 21px;
@@ -19,5 +86,11 @@
   }
   .openIconContainer :global(.vtex-button__label) {
     padding-left: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  :global(.vtex-minicart-2-x-popupStyles) {
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }

@@ -1,0 +1,22 @@
+:global(.vtex-product-list-0-x-availabilityMessageContainer) {
+    background-color: #eefbfa;
+}
+.productListUnavailableItemsMessage {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #121212BF;
+    font-weight: 400;
+}
+.productName {
+    font-size: 15px;
+    color: #121212;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.productPriceContainer {
+    font-size: 14px;
+    color: #121212B3;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

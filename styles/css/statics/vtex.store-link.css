@@ -1,0 +1,5 @@
+.link--minicart__title--link {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}

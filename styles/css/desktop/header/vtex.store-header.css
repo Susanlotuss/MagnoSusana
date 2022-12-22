@@ -8,6 +8,9 @@
   top: 0;
   background-color: white;
 }
+.headerRow--desktop__menus {
+  border-bottom: 1px solid #E6E6E6;
+}
 /*.headerRowContainer--header__middle {
     display: flex;
     align-items: center;

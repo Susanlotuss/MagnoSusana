@@ -1,0 +1,33 @@
+.wrapper--minicart__title--text :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 40px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.container--minicart__title--text,
+.container--minicart__title--phone {
+  background-color: white;
+}
+.container--products--title-desktop {
+  background-color: white;
+}
+.wrapper--products--title-desktop {
+  margin-right: auto;
+  margin-left: 0;
+}
+.paragraph--minicart__title--phone {
+  font-size: 30px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+@media screen and (max-width: 900px) {
+  :global(.vtex-rich-text-0-x-container--products--title-desktop) {
+    margin-top: 0 !important;
+    padding-left: 2rem;
+  }
+}

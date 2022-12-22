@@ -10,7 +10,7 @@
   "rich-text#related__titles": {
     "title": "related-product__shelf--title",
     "props": {
-      "text": "Támbien te puede interesar",
+      "text": "También te puede interesar",
       "blockClass": "products--title-desktop"
     }
   },
