@@ -9,7 +9,10 @@
   },
   "flex-layout.row#questions": {
     "title": "row-questions",
-    "children": ["flex-layout.col#text-questions"]
+    "children": ["flex-layout.col#text-questions"],
+    "props": {
+      "blockClass": "questions__row--content"
+    }
   },
   "flex-layout.col#text-questions": {
     "title": "col-questions",
@@ -53,7 +56,7 @@
   "rich-text#questions-entregas--content": {
     "title": "questions-entregas--content",
     "props": {
-      "text": "Sí, somos tu mejor cómplice. Encuentra el regalo perfecto a domicilio para el mismo día. Nuestro calendario de agendamiento de la web se habilita para entregas para el mismo día de lunes a sábado y aplica únicamente para Medellín y Bogotá para los pedidos que se hagan en la mañana (antes de las 12), los cuales se entregan en el transcurso de la tarde. Los envíos nacionales tardan en llegar de 1 a 2 días hábiles en ciudades principales y de 2 - 5 días hábiles en ciudades intermedias, contando de que no haya ningún inconveniente en las vías o por parte de las transportadoras.Tener en cuenta que para envíos nacionales, la fecha elegida en el calendario es la de envío y no la de entrega. Mantenemos inventario en Medellín y Bogotá de chocolates. Las tortas únicamente en Medellín, pero podemos enviarlas a Bogotá en 2 días hábiles bajo pedido.",
+      "text": "Sí, somos tu mejor cómplice. Encuentra el regalo perfecto a domicilio para el mismo día. Nuestro calendario de agendamiento de la web se habilita para entregas para el mismo día de lunes a sábado y aplica únicamente para Medellín y Bogotá para los pedidos que se hagan en la mañana (antes de las 12), los cuales se entregan en el transcurso de la tarde. <br> <br>Los envíos nacionales tardan en llegar de 1 a 2 días hábiles en ciudades principales y de 2 - 5 días hábiles en ciudades intermedias, contando de que no haya ningún inconveniente en las vías o por parte de las transportadoras. Tener en cuenta que para envíos nacionales, la fecha elegida en el calendario es la de envío y no la de entrega. <br><br>Mantenemos inventario en Medellín y Bogotá de chocolates. Las tortas únicamente en Medellín, pero podemos enviarlas a Bogotá en 2 días hábiles bajo pedido.",
       "blockClass": "questions__entregas--content"
     }
   },
@@ -67,7 +70,7 @@
   "rich-text#questions-envios--content": {
     "title": "questions-envios--content",
     "props": {
-      "text": "Sí, tenemos operación propia en: Medellín y Bogotá. Hacemos envíos nacionales a: alrededores de Bogotá, Rionegro y alrededores de Medellín, Armenia, Pereira, Manizales, Barranquilla, Cartagena, Montería, Boyacá, Ibagué, Bucaramanga y Cali. A continuación te dejamos los contactos de la línea de atención al cliente: 312-272-0236. Cuánto vale el envío? Aquí las tarifas en las zonas que actualmente tenemos cobertura desde nuestra página web: Medellín, Itagüi, Envigado y Sabaneta: $8.000 Bello: $12.000 La Estrella: $10.000 Bogotá: $10.000 Envío nacional (con excepción de la costa): $16.000. Barranquilla, Montería y Cartagena: $25.000. ",
+      "text": "Sí, tenemos operación propia en: Medellín y Bogotá. <br><br>Hacemos envíos nacionales a: alrededores de Bogotá, Rionegro y alrededores de Medellín, Armenia, Pereira, Manizales, Barranquilla, Cartagena, Montería, Boyacá, Ibagué, Bucaramanga y Cali. <br><br>A continuación te dejamos los contactos de la línea de atención al cliente: 312-272-0236. <br><br>Cuánto vale el envío? <br><br>Aquí las tarifas en las zonas que actualmente tenemos cobertura desde nuestra página web: <br><br> • Medellín, Itagüi, Envigado y Sabaneta: $8.000 <br><br>• Bello: $12.000 <br><br>• La Estrella: $10.000 <br><br>• Bogotá: $10.000 <br><br>• Envío nacional (con excepción de la costa): $16.000. <br><br>• Barranquilla, Montería y Cartagena: $25.000.",
       "blockClass": "questions__envios--content"
     }
   },
@@ -81,7 +84,7 @@
   "rich-text#questions-time--content": {
     "title": "questions-time--content",
     "props": {
-      "text": "No nos comprometemos en entregas con horarios puntuales, ya que en el caso de Medellín y Bogotá donde tenemos operación propia dependemos de la cantidad de pedidos que tengamos en el día y las direcciones de la ruta de domicilios. Sin, embargo siempre intentamos entregar lo más temprano posible. Para el caso de envíos nacionales, dependemos de las transportadoras. Nuestra recomendación es siempre hacerle seguimiento al envío con el número de guía que pueden pedir en nuestra línea de servicio al cliente. Los envíos nacionales tardan en llegar de 1 a 2 días hábiles en ciudades principales y de 2-5 días hábiles en ciudades intermedias, contando de que no haya ningún inconveniente en las vías o por parte de las transportadoras. ",
+      "text": "No nos comprometemos en entregas con horarios puntuales, ya que en el caso de Medellín y Bogotá donde tenemos operación propia dependemos de la cantidad de pedidos que tengamos en el día y las direcciones de la ruta de domicilios. Sin, embargo siempre intentamos entregar lo más temprano posible. <br><br>Para el caso de envíos nacionales, dependemos de las transportadoras. Nuestra recomendación es siempre hacerle seguimiento al envío con el número de guía que pueden pedir en nuestra línea de servicio al cliente. <br><br> Los envíos nacionales tardan en llegar de 1 a 2 días hábiles en ciudades principales y de 2-5 días hábiles en ciudades intermedias, contando de que no haya ningún inconveniente en las vías o por parte de las transportadoras. ",
       "blockClass": "questions__time--content"
     }
   },
