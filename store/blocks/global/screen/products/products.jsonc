@@ -1,0 +1,19 @@
+{
+    "store.product": {
+        "title": "pdp-container",
+        "props": {
+          "blockClass": "pdp__container"
+        },
+        "blocks": [
+            "responsive-layout.desktop#products--desktop",
+            "responsive-layout.mobile#products--mobile"
+        ]
+      },
+      "responsive-layout.mobile#products--mobile": {
+        "title": "footer__mobile",
+        "children": [
+          "responsive-layout.phone#products--phone",
+          "responsive-layout.tablet#products--tablet"
+        ]
+      }
+}

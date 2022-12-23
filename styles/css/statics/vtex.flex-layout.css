@@ -52,7 +52,7 @@
 }
 .flexRowContent--minicart-empty--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   background-color: white;
-
+}
 .flexRowContent--questions__row--content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   background-color: white;
 }

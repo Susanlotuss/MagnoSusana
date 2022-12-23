@@ -1,0 +1,15 @@
+{
+    "responsive-layout.phone#products--phone": {
+      "title": "pdp-container",
+      "props": {
+        "blockClass": "pdp__container"
+      },
+      "children": [
+        "flex-layout.row#product__breadcrumb",
+        "flex-layout.row#product__info#phone",
+        "flex-layout.row#product__tabs",
+        "list-context.product-list#pdp__related--products"
+      ]
+    }
+  }
+  

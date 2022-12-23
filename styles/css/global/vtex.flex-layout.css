@@ -1,0 +1,42 @@
+.flexCol--pdp__breadcrumb--product,
+.flexCol--pdp__info--image,
+.flexCol--pdp__info--data {
+    background-color: white;
+}
+.flexRowContent--pdp__row-container :global(.vtex-tab-layout-0-x-listContainer--pdp__reviews) {
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: start;
+    border: 1px solid #5edad1;
+}
+.flexColChild--pdp__info--data :global(.vtex-store-components-3-x-productBrand ) {
+    font-size: 40px;
+    color: #121212;
+}
+.flexColChild--pdp__info--data {
+    justify-content: left;
+    display: flex;
+    padding-top: 3rem;
+}
+.flexColChild--pdp__info--data :global(.vtex-button) {
+    width: 50%;
+    height: 50% !important;
+    border-radius: 0;
+}
+.flexColChild--disclosure-container--pdp :global(.vtex-store-icons-0-x-plusIcon) {
+    color: #979899d1;
+}
+.flexRowContent--pdp__info--data-phone :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    background-color: white;
+}
+.flexCol--pdp__info--image-phone {
+    background-color: white;
+}
+.flexRowContent--pdp__info--data-phone {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.flexColChild--info-datacol-phone {
+    padding-bottom: 2rem;
+}

@@ -3,7 +3,7 @@
         margin: 0;
     }
     .flexRow--footer__container :global(.vtex-store-components-3-x-container) {
-        padding-left: 0;
+        padding-left: 7rem;
       }
       .flexRow--footer__container--letter {
         margin: 0;
