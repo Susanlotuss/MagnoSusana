@@ -1,0 +1,9 @@
+{
+    "whatsapp-button": {
+        "props": {
+            "logo": "assets/img/whatsapp-logo.png",
+            "phone": "3197972142",
+            "message": "Magno Chocolates"
+        }
+    }
+}
