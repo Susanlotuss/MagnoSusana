@@ -54,10 +54,13 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.product-list": "0.x"
+    "vtex.product-list": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "peerDependencies": {
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtex.reviews-and-ratings": "0.x",
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

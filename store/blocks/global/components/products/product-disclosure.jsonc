@@ -1,0 +1,246 @@
+{
+    "disclosure-layout-group#global__detail-product": {
+        "title": "component disclosure layout group",
+        "children": [
+          "flex-layout.col#disclosure__pdp--container"
+        ],
+        "props": {
+            "blockClass": "disclosure-group--pdp"
+        }
+    },
+    "flex-layout.col#disclosure__pdp--container": {
+      "title": "container disclosure layout group",
+        "children": [
+            "disclosure-layout#package-product",
+            "disclosure-layout#shipping-product",
+            "disclosure-layout#care-product",
+            "disclosure-layout#gift-product",
+            "disclosure-layout#ingredients-product"
+        ],
+        "props": {
+            "blockClass": "disclosure-container--pdp"
+        }
+    },
+    "disclosure-state-indicator#detail-product": {
+        "title":"component state indicator",
+        "props": {
+          "Show": "icon-plus",
+          "Hide": "icon-minus"
+        }
+    },
+    "disclosure-layout#package-product": {
+        "title": "component disclosure package",
+        "children": [
+            "disclosure-trigger#package-product",
+            "disclosure-content#package-product"
+        ],
+        "props": {
+            "blockClass": "disclosure-ship--pdp"
+        }
+    },
+    "disclosure-trigger#package-product": {
+        "title": "component trigger package",
+        "children": [
+            "rich-text#package-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "disclosure-content#package-product": {
+        "title": "content item description",
+        "children": [
+            "rich-text#package-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#package-product": {
+        "title": "text item package",
+        "props": {
+            "text": "⊠ Empaque",
+            "blockClass":"global__product-disclosure--textTitle"
+        }
+    },
+    "rich-text#package-product-detail": {
+        "title": "paragraph package",
+        "props": {
+            "blockClass":"disclosure__product-detail--text",
+            "text": "Nuestros empaques son de regalo, en donde cada caja viene con nuestro sello insignia que comunica que nuestras gemas son decoradas con Oro de 24 k. <br><br> No entregamos facturas físicas dentro del producto, éstas son enviadas en digital al comprador. <br><br> Cada presentación viene dentro de un sobre ecológico que proteje el empaque de regalo de cualquier manipulación que pueda tener."
+        }
+    },
+    "disclosure-layout#shipping-product": {
+        "title": "component disclosure shipping",
+        "children": [
+            "disclosure-trigger#shipping-product",
+            "disclosure-content#shipping-product"
+        ],
+        "props": {
+            "blockClass": "disclosure-ship--pdp"
+        }
+    },
+    "disclosure-trigger#shipping-product": {
+        "title": "component trigger shipping",
+        "children": [
+            "rich-text#shipping-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "disclosure-content#shipping-product": {
+        "title": "content item description",
+        "children": [
+            "rich-text#shipping-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#shipping-product": {
+        "title": "text item shipping",
+        "props": {
+            "text": "✉︎ Envíos",
+            "blockClass":"global__product-disclosure--textTitle"
+        }
+    },
+    "rich-text#shipping-product-detail": {
+        "title": "paragraph shipping",
+        "props": {
+            "blockClass":"disclosure__product-detail--text",
+            "text": "En Medellín y Bogotá los pedidos son entregados el mismo día que se selecciona en la fecha calendario e intentamos entregar lo más temprano posible. <br><br> Para el resto de ciudades principales se demora en llegar 1-3 días hábiles después de la fecha calendario escogida. Tener en cuenta que para estos envíos nacionales dependemos de los tiempos de entrega de las transportadoras y las condiciones de las vías."
+        }
+    },
+    "disclosure-layout#care-product": {
+        "title": "component disclosure care",
+        "children": [
+            "disclosure-trigger#care-product",
+            "disclosure-content#care-product"
+        ],
+        "props": {
+            "blockClass": "disclosure-care--pdp"
+        }
+    },
+    "disclosure-trigger#care-product": {
+        "title": "component trigger care",
+        "children": [
+            "rich-text#care-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "rich-text#care-product": {
+        "title": "text item care",
+        "props": {
+            "text": " ♡ Cuidados",
+            "blockClass":"global__product-disclosure--textTitle"
+        }
+    },
+    "disclosure-content#care-product": {
+        "title": "content item care",
+        "children": [
+            "rich-text#care-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#care-product-detail": {
+        "title": "paragraph care",
+        "props": {
+            "text": "Los chocolates duran un mes. Se deben mantener en un lugar fresco y lejos de olores fuertes, ya que el chocolate absorbe los olores.",
+            "blockClass":"disclosure__product-detail--text"
+        }
+    },
+    "disclosure-layout#ingredients-product": {
+        "title": "component disclosure ingredients",
+        "children": [
+            "disclosure-trigger#ingredients-product",
+            "disclosure-content#ingredients-product"
+        ],
+        "props": {
+            "blockClass": "disclosure-ingredients--pdp"
+        }
+    },
+    "disclosure-trigger#ingredients-product": {
+        "title": "component trigger ingredients",
+        "children": [
+            "rich-text#ingredients-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "rich-text#ingredients-product": {
+        "title": "text item ingredients",
+        "props": {
+            "text": " ✿ Ingredientes",
+            "blockClass":"global__product-disclosure--textTitle"
+        }
+    },
+    "disclosure-content#ingredients-product": {
+        "title": "content item ingredients",
+        "children": [
+            "rich-text#ingredients-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#ingredients-product-detail": {
+        "title": "paragraph ingredients",
+        "props": {
+            "text": "Usamos chocolate real a base de manteca de cacao, lo que hace que nuestros Magnitos tengan un sabor muy especial. Los rellenos son elaborados desde cero en nuestro taller de producción con ingredientes naturales.",
+            "blockClass":"disclosure__product-detail--text"
+        }
+    },
+    "disclosure-layout#gift-product": {
+        "title": "component disclosure gift",
+        "children": [
+            "disclosure-trigger#gift-product",
+            "disclosure-content#gift-product"
+        ],
+        "props": {
+            "blockClass": "disclosure-gift--pdp"
+        }
+    },
+    "disclosure-trigger#gift-product": {
+        "title": "component trigger gift",
+        "children": [
+            "rich-text#gift-product",
+            "disclosure-state-indicator#detail-product"
+        ],
+        "props": {
+            "blockClass": "product-disclosure--title"
+        }
+    },
+    "rich-text#gift-product": {
+        "title": "text item gift",
+        "props": {
+            "text": " ☖ Tarjetas de regalo",
+            "blockClass":"global__product-disclosure--textTitle"
+        }
+    },
+    "disclosure-content#gift-product": {
+        "title": "content item gift",
+        "children": [
+            "rich-text#gift-product-detail"
+        ],
+        "props": {
+            "blockClass": "product-disclosure-content"
+        }
+    },
+    "rich-text#gift-product-detail": {
+        "title": "paragraph gift",
+        "props": {
+            "text": "Cada presentación, incluye una tarjeta con tu mensaje personalizado, por favor incluye la información del atentamente, sí deseas que lleve tu nombre.",
+            "blockClass":"disclosure__product-detail--text"
+        }
+    }
+}

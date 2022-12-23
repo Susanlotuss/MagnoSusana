@@ -1,0 +1,82 @@
+.flexCol--minicart__col1--desktop :global(.vtex-product-list-0-x-productImage) {
+  min-width: 160px !important;
+}
+.flexColChild--minicart__col1--desktop
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 15% !important;
+}
+
+.flexRowContent--minicart-row--footer {
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: block !important;
+}
+.flexCol--minicart-col--footer {
+  background-color: white;
+}
+.flexColChild--minicart-col--footer
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  font-size: 16px;
+  color: #121212;
+}
+.flexColChild--minicart-col--footer :global(.vtex-checkout-summary-0-x-price) {
+  font-size: 18px;
+  color: #121212bf;
+  font-weight: 400;
+}
+.flexRow--minicart__row--desktop {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.flexCol--minicart-info--tablet {
+  margin-left: 1rem;
+}
+.flexCol--minicart-quantity {
+  margin-left: 42rem;
+}
+.flexColChild--minicart- {
+  margin-left: 9rem;
+}
+.flexColChild--minicart-remove {
+  margin-left: 17rem;
+  padding-top: 0.4rem;
+}
+.flexColChild--minicart-price--desktop {
+  margin-left: 18rem;
+}
+.flexColChild--minicart__col1--desktop :global(.vtex-product-list-0-x-removeButtonContainer) {
+  margin-left: 17rem;
+  padding-left: 5rem;
+}
+.flexRowContent--minicart-empty--row :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background-color: white;
+}
+.flexRowContent--questions__row--content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background-color: white;
+}
+.flexRowContent--questions__row--content :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  margin-bottom: 5rem;
+}
+@media screen and (min-width: 1200px) {
+  .flexCol--static__questions--answers {
+    margin-right: 20rem;
+    margin-left: 20rem;
+  }
+} 
+@media screen and (max-width: 1100px) and (min-width: 600px) {
+  .flexCol--static__questions--answers {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .flexCol--static__questions--answers {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .flexRowContent--questions__row--content {
+    border-bottom: 1px solid #F3F3F3;
+  }
+}

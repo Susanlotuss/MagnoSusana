@@ -7,6 +7,9 @@
   width: 20px;
   height: 20px;
 }
+:global(.vtex-login-2-x-profile) {
+  display: none;
+}
 
 @media screen and (min-width: 990px) {
   :global(.vtex-login-2-x-profileIcon) {

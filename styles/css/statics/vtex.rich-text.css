@@ -1,0 +1,153 @@
+.wrapper--minicart__title--text :global(.vtex-rich-text-0-x-paragraph) {
+  font-size: 40px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.container--minicart__title--text,
+.container--minicart__title--phone {
+  background-color: white;
+}
+.container--products--title-desktop {
+  background-color: white;
+}
+.wrapper--products--title-desktop {
+  margin-right: auto;
+  margin-left: 0;
+}
+.paragraph--minicart__title--phone {
+  font-size: 30px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.paragraph--minicart-empty--text {
+  font-size: 40px;
+  color: #121212;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-bottom: 1rem;
+}
+.link--minicart-empty--buy {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.wrapper--minicart-empty--buy {
+  background-color: #5edad1;
+}
+.paragraph--minicart-empty--buy {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container--minicart-empty--buy {
+  margin-bottom: 3rem;
+}
+.paragraph--minicart-empty--acc {
+  font-size: 24px;
+  color: #121212;
+  margin-bottom: 5px;
+}
+.paragraph--minicart-empty--login,
+.link--minicart-empty--login {
+  font-size: 16px;
+  color: #121212bf;
+  margin-top: 0;
+  letter-spacing: 1px;
+  text-underline-offset: 0.3rem;
+}
+.wrapper--minicart-empty--login {
+  margin-bottom: 3rem;
+}
+
+.paragraph--questions__static--title {
+  font-size: 52px;
+  color: #121212;
+  letter-spacing: 1.6px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.paragraph--questions__entregas--title,
+.paragraph--questions__envios--title,
+.paragraph--questions__time--title,
+.paragraph--questions__gold--title,
+.paragraph--questions__mensaje--title,
+.paragraph--questions__almacenar--title,
+.paragraph--questions__sugarfree--title {
+  font-size: 24px;
+  color: #121212;
+  letter-spacing: 1.6px;
+}
+.paragraph--questions__entregas--content,
+.paragraph--questions__envios--content,
+.paragraph--questions__time--content,
+.paragraph--questions__gold--content,
+.paragraph--questions__mensaje--content,
+.paragraph--questions__almacenar--content,
+.paragraph--questions__sugarfree--content {
+  font-size: 16px;
+  color: #121212BF;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 900px) {
+  :global(.vtex-rich-text-0-x-container--products--title-desktop) {
+    margin-top: 0 !important;
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .paragraph--minicart-empty--text {
+    font-size: 30px;
+  }
+  .paragraph--minicart-empty--login,
+  .link--minicart-empty--login {
+    font-size: 15px;
+  }
+  .paragraph--minicart-empty--acc {
+    font-size: 20px;
+  }
+  :global(.vtex-minicart-2-x-minicartEmptyStateContainer--minicart-static--empty) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+ }
+ }
+@media screen and (max-width: 590px) {
+  .paragraph--questions__static--title {
+    font-size: 30px;
+    color: #121212;
+    letter-spacing: 1.6px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .paragraph--questions__entregas--title,
+  .paragraph--questions__envios--title,
+  .paragraph--questions__time--title,
+  .paragraph--questions__gold--title,
+  .paragraph--questions__mensaje--title,
+  .paragraph--questions__almacenar--title,
+  .paragraph--questions__sugarfree--title {
+    font-size: 20px;
+    color: #121212;
+    letter-spacing: 1.6px;
+  }
+  .paragraph--questions__entregas--content,
+  .paragraph--questions__envios--content,
+  .paragraph--questions__time--content,
+  .paragraph--questions__gold--content,
+  .paragraph--questions__mensaje--content,
+  .paragraph--questions__almacenar--content,
+  .paragraph--questions__sugarfree--content {
+    font-size: 12px;
+    color: #121212BF;
+    letter-spacing: 1px;
+  }
+}

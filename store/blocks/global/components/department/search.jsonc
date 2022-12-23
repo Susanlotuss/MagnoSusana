@@ -4,6 +4,7 @@
     "blocks": [
       "search-result-layout#department"
     ],
+  //  "children": ["footer-layout.desktop"],
     "props":{
       "context":{
         "skusFilter":"ALL",

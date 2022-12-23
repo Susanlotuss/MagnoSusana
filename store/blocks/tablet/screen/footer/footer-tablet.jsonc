@@ -1,0 +1,9 @@
+{
+  "responsive-layout.tablet#footer": {
+    "title": "footer-rows",
+    "children": ["footer-layout.desktop"],
+    "props": {
+      "blockClass": "footer__container"
+    }
+  }
+}

@@ -12,7 +12,7 @@
     "title": "search-layout--department",
     "children":[   
       "flex-layout.row#department__breadcrumb",
-      "responsive-layout.desktop#desktop__department"  
+      "responsive-layout.desktop#desktop__department"
       
     ],
     "props": {

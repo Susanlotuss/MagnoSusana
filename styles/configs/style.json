@@ -80,8 +80,8 @@
     "background": {
       "base": "#ffffff",
       "base--inverted": "#03044e",
-      "action-primary": "#a2e4df",
-      "action-secondary": "#a2e4df",
+      "action-primary": "#5edad1",
+      "action-secondary": "#5edad1",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
@@ -97,8 +97,8 @@
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary": "#a2e4df",
-      "action-secondary": "#a2e4df",
+      "action-primary": "#5edad1",
+      "action-secondary": "#5edad1",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -113,8 +113,8 @@
       "muted-5": "#f2f4f5"
     },
     "active-background": {
-      "action-primary": "#a2e4df",
-      "action-secondary": "#a2e4df",
+      "action-primary": "#5edad1",
+      "action-secondary": "#5edad1",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -129,8 +129,8 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#a2e4df",
-      "action-secondary": "#a2e4df",
+      "action-primary": "#5edad1",
+      "action-secondary": "#5edad1",
       "link": "#0F3E99",
       "emphasis": "#f71963",
       "disabled": "#979899",
@@ -150,8 +150,8 @@
       "link": "#0c389f"
     },
     "hover-text": {
-      "action-primary": "#a2e4df",
-      "action-secondary": "#a2e4df",
+      "action-primary": "#5edad1",
+      "action-secondary": "#5edad1",
       "link": "#0c389f",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
@@ -172,8 +172,8 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#a2e4df",
-      "action-secondary": "#a2e4df",
+      "action-primary": "#5edad1",
+      "action-secondary": "#5edad1",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",

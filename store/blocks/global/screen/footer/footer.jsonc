@@ -2,6 +2,13 @@
   "footer": {
     "title": "footer-layout",
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.mobile": {
+    "title": "footer__mobile",
+    "children": [
+      "responsive-layout.phone#footer",
+      "responsive-layout.tablet#footer"
+    ]
   }
 /*  "footer-layout.mobile": { 
     "children": [
