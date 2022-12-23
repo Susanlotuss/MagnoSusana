@@ -1,0 +1,50 @@
+{
+    "flex-layout.row#product__info#phone": {
+      "title": "info pdp",
+      "children": [
+        "flex-layout.col#product__info--image--phone"
+      ],
+      "props": {
+        "blockClass": "pdp__info--container"
+      }
+    },
+    "flex-layout.col#product__info--image--phone": {
+      "title": "pdp-image",
+      "children": ["product-images#pdp-products", "flex-layout.row#product__info--data--phone"],
+      "props": {
+        "blockClass": "pdp__info--image-phone"
+      }
+    },
+    "flex-layout.row#product__info--data--phone": {
+      "title": "pdp-data",
+      "children": [
+        "flex-layout.col#product__info--datacol"
+      ],
+      "props": {
+        "blockClass": "pdp__info--data-phone"
+      }
+    },
+    "flex-layout.col#product__info--datacol": {
+        "title": "data-phone",
+        "children": [
+            "vtex.store-components:product-name",
+       //     "product-rating-inline",
+            "product-price",
+            "product-quantity",
+            //    "product-separator"
+            "product-identifier.product",
+            "buy-button",
+            "product-description",
+            "sku-selector",
+            "disclosure-layout-group#global__detail-product",
+            //    "shipping-simulator",
+            "share"
+      //      "product-reviews"
+        ],
+        "props": {
+          "blockClass": "info-datacol-phone"
+        }
+    }
+  }
+  
+  

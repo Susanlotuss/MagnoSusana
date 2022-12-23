@@ -23,6 +23,9 @@
     padding: 5px;
     flex-basis: auto!important;
 }
+.filter__container--selectedFilters {
+  display: none;
+}
 @media screen and (max-width: 750px) {
   .gallery--gallery-department--grid,
    .gallery--gallery-department--list {

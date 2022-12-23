@@ -118,7 +118,8 @@
   :global(.vtex-minicart-2-x-minicartEmptyStateContainer--minicart-static--empty) {
     margin-right: 1rem;
     margin-left: 1rem;
-=======
+ }
+ }
 @media screen and (max-width: 590px) {
   .paragraph--questions__static--title {
     font-size: 30px;

@@ -1,0 +1,15 @@
+{
+    "responsive-layout.tablet#products--tablet": {
+      "title": "pdp-container",
+      "props": {
+        "blockClass": "pdp__container"
+      },
+      "children": [
+        "flex-layout.row#product__breadcrumb",
+        "flex-layout.row#product__info",
+        "flex-layout.row#product__tabs",
+        "list-context.product-list#pdp__related--products"
+      ]
+    }
+  }
+  
