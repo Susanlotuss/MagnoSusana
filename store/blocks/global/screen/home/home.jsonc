@@ -4,15 +4,8 @@
     "blocks": [
       "whatsapp-button",
       "responsive-layout.desktop#home__info--desktop",
-      //"responsive-layout.mobile#home__info--mobile"
       "responsive-layout.phone#home__info--mobile",
       "responsive-layout.tablet#home__info--tablet"
-      //"notification.bar#home__section--one",
     ]
   }
-  /* "rich-text#home__section--category": {
-     "props": {
-       "text": "welcome"
-     }
-   }*/
 }

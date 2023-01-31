@@ -71,49 +71,4 @@
       }
     }
    }
-  /*"info-card#home__category--desktop": {
-      "props": {
-          "id": "info-card-example",
-          "isFullModeStyle": false,
-          "textPosition": "center",
-          "imageUrl": "assets/img/magnocategory01.jpg",
-          "blockClass": "info-card-home__category",
-          "imageActionUrl": "/"
-        }
-  }*/
-
-
-  /*"list-context.image-list": {
-      "children": [
-          "slider-layout#demo-images"
-      ],
-      "props": {
-          "preload": true,
-          //"height": 100,
-          "images": [
-            {
-              "image": "assets/img/magnoblue.jpg",
-              "description": "something something"
-            },
-            {
-              "image": "",
-              "description": "something something"
-            }
-          ],
-          "link": {
-              "url": "/"
-          }
-        }
-  },
-  "slider-layout#demo-images": {
-      "props": {
-        "itemsPerPage": {
-          "desktop": 3,
-          "tablet": 1,
-          "phone": 1
-        },
-        "infinite": false
-      }
-    }*/
-
 }

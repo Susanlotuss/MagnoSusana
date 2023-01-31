@@ -56,7 +56,9 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.product-list": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "itgloberspartnercl.whatsapp-button": "0.x"
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.b2b-custom": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

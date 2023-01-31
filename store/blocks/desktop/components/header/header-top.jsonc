@@ -6,7 +6,6 @@
       "menu#web",
       "header-spacer",
       "modal-trigger#search__header",
-      //        "search-bar#desktop__header",
       "login#header__desktop",
       "minicart.v2#container-minicart"
     ],
@@ -71,7 +70,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/myAccount",
         "noFollow": false,
         "tagTitle": "corporativo",
         "text": "Corporativos"
@@ -116,7 +115,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/b2b",
         "noFollow": false,
         "tagTitle": "contactanos",
         "text": "Contáctanos"

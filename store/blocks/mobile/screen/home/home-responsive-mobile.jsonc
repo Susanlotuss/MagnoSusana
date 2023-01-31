@@ -6,29 +6,16 @@
       "slider-layout#mobile__slider--children",
       "rich-text#home__section--up",
       "rich-text#home__section--down",
+      "list-context.bullet-group",
       "flex-layout.row#mobile__linktext",
-      //    "rich-text#global__categories--title",
-      //    "rich-text#grid__button--mobile",
       "slider-layout#mobile__categories",
       "flex-layout.row#mobile__linktext--shelf",
       "list-context.product-list#mobile__desktop--products",
-  //    "rich-text#products__button",
       "flex-layout.row#home__artesanal",
       "flex-layout.row#home__media"
-   //   "flex-layout.row#home__mobile--media"
-      //  "flex-layout.row#mobile__category"
-      //   "flex-layout.row#mobile__categories"
-      //   "slider-layout#mobile__category"
     ],
     "props": {
       "blockClass": "mobile__responsive"
     }
   }
-  /*  "rich-text#home__info--mobile": {
-    "props": {
-      "text": "# Resolucion de Mobile"
-    }
-    "rich-text#global__categories--title",
-      "rich-text#grid__button--mobile"
-  }*/
 }

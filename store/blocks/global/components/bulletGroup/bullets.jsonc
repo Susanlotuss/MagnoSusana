@@ -1,0 +1,62 @@
+{
+  "list-context.bullet-group": {
+    "title": "My context - bullets list",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/macarons.jpg",
+          "titleBullet": "Macarons",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/cupcakes.png",
+          "titleBullet": "Cupcakes",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/trufas.jpg",
+          "titleBullet": "Trufas",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/alfajores.webp",
+          "titleBullet": "Alfajores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/cookies.jpg",
+          "titleBullet": "Brownie",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/cupcakes.png",
+          "titleBullet": "Cupcakes",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true
+    }
+  }
+}

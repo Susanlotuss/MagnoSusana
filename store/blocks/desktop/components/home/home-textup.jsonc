@@ -38,7 +38,6 @@
   "rich-text#grid__button--mobile": {
     "title": "grid--button__mobile",
     "props": {
- //     "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "[Ver todo](https://developers.vtex.com/vtex-developer-docs/docs/welcome)",
       "blockClass": "grid--button__mobile"

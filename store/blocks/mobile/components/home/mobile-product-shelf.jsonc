@@ -10,12 +10,9 @@
       "product-summary.shelf#mobile__products": {
         "title": "home-product--summary",
         "children": [
-          //    "stack-layout#prodsum",
           "product-summary-image",
           "product-summary-name",
           "product-summary-price"
-      //    "product-summary-sku-selector"
-          //         "product-summary-buy-button"
         ]
       },
       "slider-layout#mobile-products": {
@@ -34,11 +31,4 @@
           "fullWidth": false
         }
       }
-   /*   "rich-text#product__button": {
-        "title": "home-product--verTodo",
-        "props": {
-          "text": "[Ver todo](/)",
-          "blockClass": "products--button-desktop"
-        }
-      }*/
 }

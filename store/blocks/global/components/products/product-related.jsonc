@@ -17,12 +17,9 @@
   "product-summary.shelf#related__products": {
     "title": "home-product--summary",
     "children": [
-      //    "stack-layout#prodsum",
       "product-summary-image",
       "product-summary-name",
       "product-summary-price"
-      //  "product-summary-sku-selector",
-      //   "product-summary-buy-button"
     ],
     "props": {
       "blockClass": "related-shelf--products"

@@ -36,7 +36,6 @@
     "link#minicart__home--link": {
       "title": "minicart-link",
       "props": {
-        //  "displayMode": "button",
           "href": "/",
           "label": "Seguir comprando",
           "blockClass": "minicart__title--link"
@@ -64,7 +63,6 @@
       "title": "flexrow-minicart--tablet",
       "children": [
         "flex-layout.col#minicart__row--tablet"
-        //      "flex-layout.col#minicart__col2--tablet"
       ],
       "props": {
         "blockClass": "minicart__row--tablet"

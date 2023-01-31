@@ -2,7 +2,6 @@
   "store.custom#questions": {
     "title": "static-questions",
     "blocks": ["flex-layout.row#questions"],
-//    "children": ["footer-layout.desktop"],
     "props": {
       "blockClass": "static__questions"
     }
