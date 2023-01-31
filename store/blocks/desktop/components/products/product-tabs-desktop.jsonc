@@ -32,8 +32,6 @@
     "title": "pdp-tab-list",
     "children": [
       "tab-list.item#tabs__list--reviews-and-ratings"
-  //    "tab-list.item#tabs__list--product-specification",
-  //    "tab-list.item#tabs__list--questions"
     ],
     "props": {
       "blockClass": "pdp__reviews"
@@ -48,28 +46,10 @@
       "blockClass": "tab-reviews__list"
     }
   },
- /* "tab-list.item#tabs__list--product-specification": {
-    "title": "pdp-tab-specs",
-      "props": {
-        "tabId": "product-specification",
-        "label": "Especificaciones de producto",
-        "defaultActiveTab": false
-      }
-  },
-  "tab-list.item#tabs__list--questions": {
-    "title": "pdp-tab-questions",
-    "props": {
-        "tabId": "questions",
-        "label": "Preguntas y respuestas",
-        "defaultActiveTab": false
-      }
-  },*/
   "tab-content#product__tabs--content": {
     "title": "pdp-tab-contents",
     "children": [
       "tab-content.item#tabs__content--reviews-and-ratings"
-  //    "tab-content.item#tabs__content--product-specification",
-  //    "tab-content.item#tabs__content--questions"
     ],
     "props": {
       "blockClass": "pdp__tab-contents"
@@ -85,22 +65,4 @@
       "product-reviews"
     ]
   }
-/*  "tab-content.item#tabs__content--product-specification": {
-    "title": "pdp-tab-content--specs",
-    "props": {
-      "tabId": "product-specification"
-    },
-    "children": [
-      "product-specifications"
-    ]
-  },
-  "tab-content.item#tabs__content--questions": {
-    "title": "pdp-tab-content--questions",
-    "props": {
-      "tabId": "questions"
-    },
-    "children": [
-      "questions-and-answers"
-    ]
-  }*/
 }

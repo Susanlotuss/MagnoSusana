@@ -22,22 +22,8 @@
             "image#home__media--image2",
             "image#home__media--image3",
             "image#home__media--image4"
-     //       "flex-layout.row#home__media--image"
           ]
       },
-   /*   "flex-layout.row#home__media--image": {
-        "children": [
-            "image#home__artesanal--image",
-            "image#home__artesanal--image",
-            "image#home__artesanal--image"
-      //      "flex-layout.row#home__media--imageTextt2"
-          ]
-      },
-    /*  "flex-layout.row#home__media--imageTextt2": {
-        "children": [
-            "image#home__artesanal--image"
-          ]
-      },*/
       "image#home__media--image1": {
         "title": "image1-media--desktop",
         "props": {

@@ -40,7 +40,6 @@
   "link#minicart__home--link": {
     "title": "minicart-link",
     "props": {
-      //  "displayMode": "button",
         "href": "/",
         "label": "Seguir comprando",
         "blockClass": "minicart__title--link"
@@ -68,7 +67,6 @@
     "title": "flexrow-minicart--phone",
     "children": [
       "flex-layout.col#minicart__row--phone"
-      //      "flex-layout.col#minicart__col2--phone"
     ],
     "props": {
       "blockClass": "minicart__row--phone"

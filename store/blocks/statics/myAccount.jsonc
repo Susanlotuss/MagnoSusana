@@ -1,0 +1,11 @@
+{} /* {
+    "store.custom#myAccount": {
+        "title": "static-myAccount",
+        "blocks": [
+          "my-account-custom"
+        ],
+        "props": {
+          "blockClass": "static__myAccount"
+        }
+      }
+} */

@@ -29,18 +29,14 @@
     "title": "pdp-data",
     "children": [
       "vtex.store-components:product-name",
- //     "product-rating-inline",
       "product-price",
       "product-quantity",
-      //    "product-separator"
       "product-identifier.product",
       "buy-button",
       "product-description",
       "sku-selector",
       "disclosure-layout-group#global__detail-product",
-      //    "shipping-simulator",
       "share"
-//      "product-reviews"
     ],
     "props": {
       "blockClass": "pdp__info--data"

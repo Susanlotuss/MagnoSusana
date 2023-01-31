@@ -21,11 +21,9 @@
       "blockClass": "footer__container"
     }
   },
-  /*columna creaciones*/
   "flex-layout.col#footer-desktop--creaciones": {
     "title": "creaciones-footer",
     "children": [
-      //      "flex-layout.col#footer__container--creaciones-one"
       "rich-text#footer__container--creacion-one",
       "rich-text#footer__container--creacion-two",
       "rich-text#footer__container--creacion-three",
@@ -37,19 +35,7 @@
       "blockClass": "footer__container--creaciones"
     }
   },
-  /*  "flex-layout.col#footer__container--creaciones-one": {
-    "children": [
-      "rich-text#footer__container--creaciones-one",
-      "rich-text#footer__container--creaciones-two",
-      "rich-text#footer__container--creaciones-three",
-      "rich-text#footer__container--creaciones-four",
-      "rich-text#footer__container--creaciones-five",
-      "rich-text#footer__container--creaciones-six"
-    ],
-    "props": {
-      "colSizing": "auto"
-    }
-  },*/
+  
   "rich-text#footer__container--creacion-one": {
     "title": "footer-containerOne--creaciones",
     "props": {
@@ -98,11 +84,9 @@
       "blockClass": "rich-text__footer__container--options"
     }
   },
-  /*columna servicios*/
   "flex-layout.col#footer-desktop--servicio": {
     "title": "servicios-footer",
     "children": [
-      //     "flex-layout.col#footer__container--servicios-one"
       "rich-text#footer__container--servicio-one",
       "rich-text#footer__container--servicio-two",
       "rich-text#footer__container--servicio-three",
@@ -113,18 +97,6 @@
       "blockClass": "footer__container--servicios"
     }
   },
-  /*  "flex-layout.col#footer__container--servicios-one": {
-    "children": [
-      "rich-text#footer__container--servicios-one",
-      "rich-text#footer__container--servicios-two",
-      "rich-text#footer__container--servicios-three",
-      "rich-text#footer__container--servicios-four",
-      "rich-text#footer__container--servicios-five"
-    ],
-    "props": {
-      "colSizing": "auto"
-    }
-  },*/
   "rich-text#footer__container--servicio-one": {
     "title": "footer-containerOne--servicios",
     "props": {
@@ -136,7 +108,7 @@
   "rich-text#footer__container--servicio-two": {
     "title": "footer-containerTwo--servicios",
     "props": {
-      "text": "[Chocolates corporativos](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+      "text": "[Chocolates corporativos](/myAccount)",
       "textPosition": "LEFT",
       "blockClass": "rich-text__footer__container--options"
     }
@@ -165,11 +137,9 @@
       "blockClass": "rich-text__footer__container--options"
     }
   },
-  /*columna empresa*/
   "flex-layout.col#footer-desktop--empresas": {
     "title": "empresa-footer",
     "children": [
-      //      "flex-layout.col#footer__container--empresa-one"
       "rich-text#footer__container--empresas-one",
       "rich-text#footer__container--empresas-two",
       "rich-text#footer__container--empresas-three",
@@ -182,20 +152,6 @@
       "blockClass": "footer__container--empresa"
     }
   },
-  /*  "flex-layout.col#footer__container--empresa-one": {
-    "children": [
-      "rich-text#footer__container--empresa-one",
-      "rich-text#footer__container--empresa-two",
-      "rich-text#footer__container--empresa-three",
-      "rich-text#footer__container--empresa-four",
-      "rich-text#footer__container--empresa-five",
-      "rich-text#footer__container--empresa-six",
-      "rich-text#footer__container--empresa-seven"
-    ],
-    "props": {
-      "colSizing": "auto"
-    }
-  },*/
   "rich-text#footer__container--empresas-one": {
     "title": "footer-containerOne--empresa",
     "props": {
@@ -207,7 +163,7 @@
   "rich-text#footer__container--empresas-two": {
     "title": "footer-containerTwo--empresa",
     "props": {
-      "text": "[Contáctanos](https://susanamartinez--itgloberspartnercl.myvtex.com/)",
+      "text": "[Contáctanos](/b2b)",
       "textPosition": "LEFT",
       "blockClass": "rich-text__footer__container--options"
     }
@@ -252,7 +208,6 @@
       "blockClass": "rich-text__footer__container--options"
     }
   },
-  /*row newsletter y social*/
   "flex-layout.row#footer-desktop--newsletters": {
     "title": "footer-newsletter-desktop",
     "children": [
@@ -265,8 +220,6 @@
   "flex-layout.col#footer__desktop--newsletters": {
     "title": "newsletters-footer",
     "children": ["newsletter-form#footer__desktop--news", "flex-layout.row#footer-desktop--socialnetwork"]
-    //    "props": {
-    //      "blockClass": "footer__container--news"
   },
   "newsletter-form#footer__desktop--news": {
     "title": "footer-newsletter--form",

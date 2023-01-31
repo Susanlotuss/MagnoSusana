@@ -13,7 +13,6 @@
     "children": [
       "rich-text#home__artesanal--title",
       "image#home__artesanal--image"
-      //  "image#home__category4--desktop"
     ]
   },
   "image#home__artesanal--image": {

@@ -1,0 +1,11 @@
+{
+    "store.custom#b2b": {
+        "title": "static-b2b",
+        "blocks": [
+          "b2b-custom"
+        ],
+        "props": {
+          "blockClass": "static__b2b"
+        }
+      }
+}

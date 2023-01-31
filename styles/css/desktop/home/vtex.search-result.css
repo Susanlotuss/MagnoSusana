@@ -32,14 +32,6 @@
       border-bottom: 1px solid #E6E6E6;
     }
 }
-
-/*.gallery--gallery-department--grid {
-    justify-content: center;
-}
-.filters--layout {
-    justify-content: center;
-    display: flex;
-}*/
 @media screen and (min-width: 751px) {
   .filters--layout {
     padding-right: 8rem;

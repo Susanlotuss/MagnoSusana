@@ -6,6 +6,7 @@
       "slider-layout#home__slider--children",
       "rich-text#home__section--up",
       "rich-text#home__section--down",
+      "list-context.bullet-group",
       "rich-text#global__categories--title",
       "flex-layout.row#home__category",
       "rich-text#grid__button",
@@ -18,9 +19,4 @@
       "blockClass": "home__responsive"
     }
   }
-/*  "rich-text#home__info--desktop": {
-    "props": {
-      "text": "# Resolucion de Escritorio"
-    }
-  }*/
 }

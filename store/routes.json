@@ -4,5 +4,8 @@
   },
   "store.custom#questions": {
     "path": "/questions"
+  },
+  "store.custom#b2b": {
+    "path": "/b2b"
   }
 }
