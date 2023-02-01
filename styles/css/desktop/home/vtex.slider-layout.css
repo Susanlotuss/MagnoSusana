@@ -20,4 +20,21 @@
     padding-left: 6.8rem !important;
     padding-right: 5rem !important;
   }
+  .bullet__item--title {
+    font-size: 15px;
+    color: #3f3f40;
+  }
+  .bullet__item--link {
+    text-decoration: none;
+  }
+  .bullet__item--title:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+  .bullet__item--image {
+    width: 12rem;
+  }
+  .bullet__item {
+    padding-top: 5rem;
+  }
 }

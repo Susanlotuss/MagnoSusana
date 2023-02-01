@@ -53,8 +53,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 5,
-        "mobile": 5
+        "tablet": 4,
+        "mobile": 4
       },
       "infinite": true
     }
