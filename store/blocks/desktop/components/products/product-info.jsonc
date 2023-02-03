@@ -32,15 +32,30 @@
       "product-price",
       "product-quantity",
       "product-identifier.product",
-      "buy-button",
+      "add-to-cart-button",
       "product-description",
       "sku-selector",
       "disclosure-layout-group#global__detail-product",
-      "share"
+      "share",
+      "modal-trigger#add-to-cart-info"
     ],
     "props": {
       "blockClass": "pdp__info--data"
     }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
+  },
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
   }
 }
-

@@ -31,11 +31,12 @@
             "product-price",
             "product-quantity",
             "product-identifier.product",
-            "buy-button",
+            "add-to-cart-button",
             "product-description",
             "sku-selector",
             "disclosure-layout-group#global__detail-product",
-            "share"
+            "share",
+            "modal-trigger#add-to-cart-info"
         ],
         "props": {
           "blockClass": "info-datacol-phone"
