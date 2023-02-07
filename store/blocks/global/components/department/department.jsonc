@@ -13,7 +13,7 @@
     "children":[   
       "flex-layout.row#department__breadcrumb",
       "responsive-layout.desktop#desktop__department"
-      
+  
     ],
     "props": {
       "pagination": "show-more",
