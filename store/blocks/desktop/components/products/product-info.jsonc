@@ -30,6 +30,7 @@
     "children": [
       "vtex.store-components:product-name",
       "product-price",
+      "b2b-product-context",
       "product-quantity",
       "product-identifier.product",
       "add-to-cart-button",
