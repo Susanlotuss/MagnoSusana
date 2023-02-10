@@ -7,5 +7,9 @@
   },
   "store.custom#b2b": {
     "path": "/b2b"
+  },
+    "store.custom#pdf-reader": {
+      "path": "/pdf"
   }
+  
 }
